@@ -332,7 +332,7 @@ namespace YourHotelСистемаучетажителейотеля {
 			this->groupBox1->ForeColor = System::Drawing::SystemColors::ControlText;
 			this->groupBox1->Location = System::Drawing::Point(0, 0);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(678, 180);
+			this->groupBox1->Size = System::Drawing::Size(689, 193);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Житель     ";
@@ -621,6 +621,8 @@ namespace YourHotelСистемаучетажителейотеля {
 			// 
 			tabControl1->Controls->Add(this->tabPage1);
 			tabControl1->Controls->Add(this->tabPage2);
+			tabControl1->Font = (gcnew System::Drawing::Font(L"Arial", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			tabControl1->Location = System::Drawing::Point(9, 202);
 			tabControl1->Name = L"tabControl1";
 			tabControl1->SelectedIndex = 0;
@@ -634,9 +636,9 @@ namespace YourHotelСистемаучетажителейотеля {
 			this->tabPage1->Font = (gcnew System::Drawing::Font(L"Arial", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->tabPage1->ForeColor = System::Drawing::SystemColors::ControlText;
-			this->tabPage1->Location = System::Drawing::Point(4, 22);
+			this->tabPage1->Location = System::Drawing::Point(4, 23);
 			this->tabPage1->Name = L"tabPage1";
-			this->tabPage1->Size = System::Drawing::Size(845, 217);
+			this->tabPage1->Size = System::Drawing::Size(845, 216);
 			this->tabPage1->TabIndex = 0;
 			this->tabPage1->Text = L"Основные данные";
 			// 
