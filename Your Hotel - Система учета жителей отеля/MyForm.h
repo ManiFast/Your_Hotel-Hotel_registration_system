@@ -66,7 +66,7 @@ namespace YourHotelСистемаучетажителейотеля {
 
 
 	private: System::Windows::Forms::CheckBox^ checkBox1;
-	private: System::Windows::Forms::Panel^ panel2;
+
 
 	private: System::Windows::Forms::Button^ button2;
 	private: System::Windows::Forms::Label^ label5;
@@ -84,7 +84,7 @@ namespace YourHotelСистемаучетажителейотеля {
 	private: System::Windows::Forms::TextBox^ INN;
 
 	private: System::Windows::Forms::Label^ label8;
-	private: System::Windows::Forms::TextBox^ PhoneNumber;
+
 
 	private: System::Windows::Forms::TextBox^ textBox5;
 	private: System::Windows::Forms::Label^ label7;
@@ -102,23 +102,26 @@ namespace YourHotelСистемаучетажителейотеля {
 	private: System::Windows::Forms::Label^ label10;
 	private: System::Windows::Forms::TextBox^ Registration;
 	private: System::Windows::Forms::GroupBox^ groupBox8;
-	private: System::Windows::Forms::Label^ label14;
-	private: System::Windows::Forms::DateTimePicker^ dateTimePicker3;
-	private: System::Windows::Forms::Label^ label15;
-	private: System::Windows::Forms::DateTimePicker^ dateTimePicker4;
-	private: System::Windows::Forms::Label^ label16;
+	private: System::Windows::Forms::TextBox^ BirthDay;
 
-	private: System::Windows::Forms::DateTimePicker^ dateTimePicker2;
 
-	private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
-	private: System::Windows::Forms::Label^ label11;
-	private: System::Windows::Forms::Label^ label12;
-	private: System::Windows::Forms::Label^ label13;
 
-private: System::Windows::Forms::TextBox^ textBox1;
+
+
+
+
+
+
+
+
+
+
+
 private: System::Windows::Forms::Label^ label17;
-private: System::Windows::Forms::TextBox^ textBox2;
-private: System::Windows::Forms::ComboBox^ comboBox1;
+private: System::Windows::Forms::TextBox^ BirthYear;
+
+private: System::Windows::Forms::ComboBox^ BirthMonth;
+
 private: System::Windows::Forms::Label^ label20;
 private: System::Windows::Forms::Label^ label19;
 private: System::Windows::Forms::Label^ label18;
@@ -126,31 +129,118 @@ private: System::Windows::Forms::Label^ label18;
 private: System::Windows::Forms::Label^ label22;
 private: System::Windows::Forms::GroupBox^ groupBox9;
 private: System::Windows::Forms::Label^ label21;
-private: System::Windows::Forms::TextBox^ textBox3;
-private: System::Windows::Forms::TextBox^ textBox6;
-private: System::Windows::Forms::Label^ label23;
-private: System::Windows::Forms::TextBox^ textBox4;
+private: System::Windows::Forms::TextBox^ KPP;
 
-private: System::Windows::Forms::Label^ label25;
+
+
+private: System::Windows::Forms::Label^ label23;
+private: System::Windows::Forms::TextBox^ VisaNum;
+
+
+
+
+
+private: System::Windows::Forms::TextBox^ Email;
+
+private: System::Windows::Forms::Label^ label26;
+
+
+
+
+
+
+private: System::Windows::Forms::Label^ label29;
+private: System::Windows::Forms::TextBox^ VisaPlace;
+
+private: System::Windows::Forms::Label^ label28;
+
+
+private: System::Windows::Forms::Label^ label27;
+private: System::Windows::Forms::TextBox^ VisaType;
+
+private: System::Windows::Forms::Label^ label30;
+
+
+private: System::Windows::Forms::Label^ label31;
+
+
+
+private: System::Windows::Forms::Label^ label32;
+
+private: System::Windows::Forms::Label^ label34;
+private: System::Windows::Forms::Label^ label41;
+private: System::Windows::Forms::Label^ label40;
+private: System::Windows::Forms::Label^ label39;
+private: System::Windows::Forms::Label^ label38;
+private: System::Windows::Forms::Label^ label37;
+private: System::Windows::Forms::Label^ label36;
+private: System::Windows::Forms::TrackBar^ trackBar1;
+private: System::Windows::Forms::Label^ label35;
+private: System::Windows::Forms::TextBox^ RoomNum;
+
+private: System::Windows::Forms::Label^ label45;
+private: System::Windows::Forms::Label^ label44;
+private: System::Windows::Forms::Label^ label43;
+private: System::Windows::Forms::Label^ label42;
+private: System::Windows::Forms::Button^ button1;
+private: System::Windows::Forms::Label^ label12;
+private: System::Windows::Forms::Label^ label13;
+private: System::Windows::Forms::Label^ label14;
+private: System::Windows::Forms::DateTimePicker^ dateTimePicker3;
+private: System::Windows::Forms::Label^ label15;
+private: System::Windows::Forms::DateTimePicker^ dateTimePicker4;
+private: System::Windows::Forms::Label^ label16;
+private: System::Windows::Forms::DateTimePicker^ dateTimePicker2;
+private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
+private: System::Windows::Forms::Label^ label11;
+private: System::Windows::Forms::TabControl^ Addit;
+
+
+private: System::Windows::Forms::TabPage^ tabPage5;
+private: System::Windows::Forms::TabPage^ tabPage6;
+private: System::Windows::Forms::ComboBox^ ComboBoxIn;
+
+
+
+
+
+
+
+
+private: System::Windows::Forms::RichTextBox^ VisaIn;
+
 
 private: System::Windows::Forms::Label^ label24;
-private: System::Windows::Forms::TextBox^ textBox7;
-private: System::Windows::Forms::Label^ label26;
-private: System::Windows::Forms::RichTextBox^ richTextBox2;
-private: System::Windows::Forms::RichTextBox^ richTextBox1;
-private: System::Windows::Forms::TextBox^ textBox10;
-private: System::Windows::Forms::Label^ label29;
-private: System::Windows::Forms::TextBox^ textBox9;
-private: System::Windows::Forms::Label^ label28;
-private: System::Windows::Forms::TextBox^ textBox8;
-private: System::Windows::Forms::Label^ label27;
-private: System::Windows::Forms::TextBox^ textBox11;
-private: System::Windows::Forms::Label^ label30;
-private: System::Windows::Forms::TextBox^ textBox12;
-private: System::Windows::Forms::Label^ label31;
-private: System::Windows::Forms::TextBox^ textBox13;
-private: System::Windows::Forms::Label^ label33;
-private: System::Windows::Forms::Label^ label32;
+private: System::Windows::Forms::Label^ label25;
+
+private: System::Windows::Forms::RichTextBox^ VisaDrive;
+private: System::Windows::Forms::Label^ label46;
+private: System::Windows::Forms::Label^ label47;
+private: System::Windows::Forms::ComboBox^ ComboBoxDrive;
+
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel1;
+private: System::Windows::Forms::Button^ button6;
+private: System::Windows::Forms::MaskedTextBox^ PhoneNumber;
+private: System::Windows::Forms::MaskedTextBox^ VisaEnd;
+private: System::Windows::Forms::MaskedTextBox^ VisaStart;
+
+private: System::Windows::Forms::MaskedTextBox^ maskedTextBox1;
+private: System::Windows::Forms::MaskedTextBox^ VisaGive;
+private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -214,9 +304,21 @@ private: System::Windows::Forms::Label^ label32;
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->checkBox1 = (gcnew System::Windows::Forms::CheckBox());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
-			this->PhoneNumber = (gcnew System::Windows::Forms::TextBox());
+			this->PhoneNumber = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->Email = (gcnew System::Windows::Forms::TextBox());
+			this->label26 = (gcnew System::Windows::Forms::Label());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->BirthYear = (gcnew System::Windows::Forms::TextBox());
+			this->BirthMonth = (gcnew System::Windows::Forms::ComboBox());
+			this->BirthDay = (gcnew System::Windows::Forms::TextBox());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->Registration = (gcnew System::Windows::Forms::TextBox());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -236,70 +338,80 @@ private: System::Windows::Forms::Label^ label32;
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
 			this->groupBox7 = (gcnew System::Windows::Forms::GroupBox());
+			this->VisaDriveOut = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->VisaGive = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->VisaEnd = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->VisaStart = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label31 = (gcnew System::Windows::Forms::Label());
+			this->VisaType = (gcnew System::Windows::Forms::TextBox());
+			this->label30 = (gcnew System::Windows::Forms::Label());
+			this->VisaPlace = (gcnew System::Windows::Forms::TextBox());
+			this->label28 = (gcnew System::Windows::Forms::Label());
+			this->label29 = (gcnew System::Windows::Forms::Label());
+			this->label27 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->VisaNum = (gcnew System::Windows::Forms::TextBox());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
+			this->Addit = (gcnew System::Windows::Forms::TabControl());
+			this->tabPage5 = (gcnew System::Windows::Forms::TabPage());
+			this->label46 = (gcnew System::Windows::Forms::Label());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->ComboBoxIn = (gcnew System::Windows::Forms::ComboBox());
+			this->VisaIn = (gcnew System::Windows::Forms::RichTextBox());
+			this->tabPage6 = (gcnew System::Windows::Forms::TabPage());
+			this->label47 = (gcnew System::Windows::Forms::Label());
+			this->ComboBoxDrive = (gcnew System::Windows::Forms::ComboBox());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->VisaDrive = (gcnew System::Windows::Forms::RichTextBox());
+			this->label32 = (gcnew System::Windows::Forms::Label());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->KPP = (gcnew System::Windows::Forms::TextBox());
 			this->DocumentNum = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->SerialNum = (gcnew System::Windows::Forms::TextBox());
 			this->INN = (gcnew System::Windows::Forms::TextBox());
 			this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
+			this->label45 = (gcnew System::Windows::Forms::Label());
+			this->label44 = (gcnew System::Windows::Forms::Label());
+			this->label43 = (gcnew System::Windows::Forms::Label());
+			this->label42 = (gcnew System::Windows::Forms::Label());
+			this->label41 = (gcnew System::Windows::Forms::Label());
+			this->label40 = (gcnew System::Windows::Forms::Label());
+			this->label39 = (gcnew System::Windows::Forms::Label());
+			this->label38 = (gcnew System::Windows::Forms::Label());
+			this->label37 = (gcnew System::Windows::Forms::Label());
+			this->label36 = (gcnew System::Windows::Forms::Label());
+			this->trackBar1 = (gcnew System::Windows::Forms::TrackBar());
+			this->label35 = (gcnew System::Windows::Forms::Label());
+			this->RoomNum = (gcnew System::Windows::Forms::TextBox());
+			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
-			this->panel3 = (gcnew System::Windows::Forms::Panel());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
-			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->treeView1 = (gcnew System::Windows::Forms::TreeView());
-			this->monthCalendar1 = (gcnew System::Windows::Forms::MonthCalendar());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->Registration = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
-			this->dateTimePicker2 = (gcnew System::Windows::Forms::DateTimePicker());
+			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->dateTimePicker3 = (gcnew System::Windows::Forms::DateTimePicker());
 			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->dateTimePicker4 = (gcnew System::Windows::Forms::DateTimePicker());
 			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-			this->groupBox9 = (gcnew System::Windows::Forms::GroupBox());
-			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
-			this->label23 = (gcnew System::Windows::Forms::Label());
-			this->label24 = (gcnew System::Windows::Forms::Label());
-			this->label25 = (gcnew System::Windows::Forms::Label());
-			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
-			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
-			this->label26 = (gcnew System::Windows::Forms::Label());
-			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
-			this->label27 = (gcnew System::Windows::Forms::Label());
-			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
-			this->label28 = (gcnew System::Windows::Forms::Label());
-			this->textBox10 = (gcnew System::Windows::Forms::TextBox());
-			this->label29 = (gcnew System::Windows::Forms::Label());
-			this->textBox11 = (gcnew System::Windows::Forms::TextBox());
-			this->label30 = (gcnew System::Windows::Forms::Label());
-			this->textBox12 = (gcnew System::Windows::Forms::TextBox());
-			this->label31 = (gcnew System::Windows::Forms::Label());
-			this->label32 = (gcnew System::Windows::Forms::Label());
-			this->textBox13 = (gcnew System::Windows::Forms::TextBox());
-			this->label33 = (gcnew System::Windows::Forms::Label());
+			this->dateTimePicker2 = (gcnew System::Windows::Forms::DateTimePicker());
+			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->panel3 = (gcnew System::Windows::Forms::Panel());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
+			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->treeView1 = (gcnew System::Windows::Forms::TreeView());
+			this->monthCalendar1 = (gcnew System::Windows::Forms::MonthCalendar());
+			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->button6 = (gcnew System::Windows::Forms::Button());
 			tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			tabControl1->SuspendLayout();
 			this->tabPage1->SuspendLayout();
@@ -310,13 +422,18 @@ private: System::Windows::Forms::Label^ label32;
 			this->groupBox2->SuspendLayout();
 			this->tabPage2->SuspendLayout();
 			this->groupBox7->SuspendLayout();
+			this->groupBox9->SuspendLayout();
+			this->Addit->SuspendLayout();
+			this->tabPage5->SuspendLayout();
+			this->tabPage6->SuspendLayout();
 			this->groupBox6->SuspendLayout();
+			this->tabPage4->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->BeginInit();
 			this->panel1->SuspendLayout();
+			this->groupBox8->SuspendLayout();
 			this->panel3->SuspendLayout();
 			this->groupBox5->SuspendLayout();
-			this->panel2->SuspendLayout();
-			this->groupBox8->SuspendLayout();
-			this->groupBox9->SuspendLayout();
+			this->tableLayoutPanel1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// tabControl1
@@ -349,6 +466,7 @@ private: System::Windows::Forms::Label^ label32;
 			// groupBox1
 			// 
 			this->groupBox1->BackColor = System::Drawing::SystemColors::Control;
+			this->groupBox1->Controls->Add(this->button1);
 			this->groupBox1->Controls->Add(this->checkBox1);
 			this->groupBox1->Controls->Add(this->groupBox3);
 			this->groupBox1->Controls->Add(this->groupBox2);
@@ -358,8 +476,21 @@ private: System::Windows::Forms::Label^ label32;
 			this->groupBox1->Size = System::Drawing::Size(858, 180);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Житель                ";
+			this->groupBox1->Text = L"Житель                           ";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &MyForm::groupBox1_Enter);
+			// 
+			// button1
+			// 
+			this->button1->BackColor = System::Drawing::Color::Snow;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Arial", 6, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button1->Location = System::Drawing::Point(122, 1);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(44, 19);
+			this->button1->TabIndex = 3;
+			this->button1->Text = L"Пример";
+			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::DefaultFill);
 			// 
 			// checkBox1
 			// 
@@ -378,18 +509,18 @@ private: System::Windows::Forms::Label^ label32;
 			// 
 			// groupBox3
 			// 
-			this->groupBox3->Controls->Add(this->textBox7);
+			this->groupBox3->Controls->Add(this->PhoneNumber);
+			this->groupBox3->Controls->Add(this->Email);
 			this->groupBox3->Controls->Add(this->label26);
 			this->groupBox3->Controls->Add(this->label20);
 			this->groupBox3->Controls->Add(this->label19);
 			this->groupBox3->Controls->Add(this->label18);
-			this->groupBox3->Controls->Add(this->textBox2);
-			this->groupBox3->Controls->Add(this->comboBox1);
-			this->groupBox3->Controls->Add(this->textBox1);
+			this->groupBox3->Controls->Add(this->BirthYear);
+			this->groupBox3->Controls->Add(this->BirthMonth);
+			this->groupBox3->Controls->Add(this->BirthDay);
 			this->groupBox3->Controls->Add(this->label17);
 			this->groupBox3->Controls->Add(this->label10);
 			this->groupBox3->Controls->Add(this->Registration);
-			this->groupBox3->Controls->Add(this->PhoneNumber);
 			this->groupBox3->Controls->Add(this->textBox5);
 			this->groupBox3->Controls->Add(this->label7);
 			this->groupBox3->Controls->Add(this->label6);
@@ -409,13 +540,119 @@ private: System::Windows::Forms::Label^ label32;
 			// 
 			// PhoneNumber
 			// 
-			this->PhoneNumber->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->PhoneNumber->Location = System::Drawing::Point(119, 32);
-			this->PhoneNumber->Multiline = true;
+			this->PhoneNumber->Location = System::Drawing::Point(126, 32);
+			this->PhoneNumber->Mask = L"(999) 00-000-00-00";
 			this->PhoneNumber->Name = L"PhoneNumber";
-			this->PhoneNumber->Size = System::Drawing::Size(117, 21);
-			this->PhoneNumber->TabIndex = 15;
+			this->PhoneNumber->Size = System::Drawing::Size(110, 20);
+			this->PhoneNumber->TabIndex = 26;
+			// 
+			// Email
+			// 
+			this->Email->BackColor = System::Drawing::SystemColors::Window;
+			this->Email->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->Email->Location = System::Drawing::Point(254, 80);
+			this->Email->Name = L"Email";
+			this->Email->Size = System::Drawing::Size(257, 24);
+			this->Email->TabIndex = 6;
+			this->Email->Tag = L"NamePer";
+			// 
+			// label26
+			// 
+			this->label26->AutoSize = true;
+			this->label26->Location = System::Drawing::Point(251, 63);
+			this->label26->Name = L"label26";
+			this->label26->Size = System::Drawing::Size(58, 14);
+			this->label26->TabIndex = 25;
+			this->label26->Text = L"Эл. Почта";
+			// 
+			// label20
+			// 
+			this->label20->AutoSize = true;
+			this->label20->Location = System::Drawing::Point(470, 16);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(24, 14);
+			this->label20->TabIndex = 24;
+			this->label20->Text = L"Год";
+			// 
+			// label19
+			// 
+			this->label19->AutoSize = true;
+			this->label19->Location = System::Drawing::Point(390, 15);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(39, 14);
+			this->label19->TabIndex = 23;
+			this->label19->Text = L"Месяц";
+			// 
+			// label18
+			// 
+			this->label18->AutoSize = true;
+			this->label18->Location = System::Drawing::Point(340, 15);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(37, 14);
+			this->label18->TabIndex = 22;
+			this->label18->Text = L"Число";
+			// 
+			// BirthYear
+			// 
+			this->BirthYear->Font = (gcnew System::Drawing::Font(L"Arial", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->BirthYear->Location = System::Drawing::Point(457, 32);
+			this->BirthYear->Multiline = true;
+			this->BirthYear->Name = L"BirthYear";
+			this->BirthYear->Size = System::Drawing::Size(54, 24);
+			this->BirthYear->TabIndex = 21;
+			// 
+			// BirthMonth
+			// 
+			this->BirthMonth->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->BirthMonth->FormattingEnabled = true;
+			this->BirthMonth->Items->AddRange(gcnew cli::array< System::Object^  >(12) {
+				L"Январь", L"Февраль", L"Март", L"Апрель", L"Май",
+					L"Июнь", L"Июль", L"Август", L"Сентябрь", L"Октябрь", L"Ноябрь", L"Декабрь"
+			});
+			this->BirthMonth->Location = System::Drawing::Point(374, 32);
+			this->BirthMonth->Name = L"BirthMonth";
+			this->BirthMonth->Size = System::Drawing::Size(85, 24);
+			this->BirthMonth->TabIndex = 20;
+			// 
+			// BirthDay
+			// 
+			this->BirthDay->Font = (gcnew System::Drawing::Font(L"Arial", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->BirthDay->Location = System::Drawing::Point(343, 32);
+			this->BirthDay->Multiline = true;
+			this->BirthDay->Name = L"BirthDay";
+			this->BirthDay->Size = System::Drawing::Size(34, 24);
+			this->BirthDay->TabIndex = 19;
+			// 
+			// label17
+			// 
+			this->label17->AutoSize = true;
+			this->label17->Location = System::Drawing::Point(251, 37);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(86, 14);
+			this->label17->TabIndex = 18;
+			this->label17->Text = L"Дата рождиния";
+			// 
+			// label10
+			// 
+			this->label10->Location = System::Drawing::Point(103, 103);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(133, 13);
+			this->label10->TabIndex = 16;
+			this->label10->Text = L"Прописка";
+			// 
+			// Registration
+			// 
+			this->Registration->Font = (gcnew System::Drawing::Font(L"Bahnschrift Light SemiCondensed", 10, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			this->Registration->Location = System::Drawing::Point(106, 120);
+			this->Registration->Multiline = true;
+			this->Registration->Name = L"Registration";
+			this->Registration->Size = System::Drawing::Size(130, 24);
+			this->Registration->TabIndex = 17;
 			// 
 			// textBox5
 			// 
@@ -426,7 +663,7 @@ private: System::Windows::Forms::Label^ label32;
 			this->textBox5->Location = System::Drawing::Point(106, 32);
 			this->textBox5->Multiline = true;
 			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(21, 21);
+			this->textBox5->Size = System::Drawing::Size(21, 20);
 			this->textBox5->TabIndex = 6;
 			this->textBox5->Text = L"+";
 			// 
@@ -629,46 +866,335 @@ private: System::Windows::Forms::Label^ label32;
 			// 
 			// groupBox7
 			// 
-			this->groupBox7->Controls->Add(this->textBox13);
-			this->groupBox7->Controls->Add(this->label33);
-			this->groupBox7->Controls->Add(this->textBox12);
+			this->groupBox7->Controls->Add(this->VisaDriveOut);
+			this->groupBox7->Controls->Add(this->VisaGive);
+			this->groupBox7->Controls->Add(this->VisaEnd);
+			this->groupBox7->Controls->Add(this->VisaStart);
 			this->groupBox7->Controls->Add(this->label31);
-			this->groupBox7->Controls->Add(this->textBox11);
+			this->groupBox7->Controls->Add(this->VisaType);
 			this->groupBox7->Controls->Add(this->label30);
-			this->groupBox7->Controls->Add(this->textBox10);
-			this->groupBox7->Controls->Add(this->textBox9);
+			this->groupBox7->Controls->Add(this->VisaPlace);
 			this->groupBox7->Controls->Add(this->label28);
 			this->groupBox7->Controls->Add(this->label29);
-			this->groupBox7->Controls->Add(this->textBox8);
 			this->groupBox7->Controls->Add(this->label27);
-			this->groupBox7->Controls->Add(this->textBox6);
 			this->groupBox7->Controls->Add(this->label23);
-			this->groupBox7->Controls->Add(this->textBox4);
+			this->groupBox7->Controls->Add(this->VisaNum);
 			this->groupBox7->Controls->Add(this->label22);
 			this->groupBox7->Controls->Add(this->groupBox9);
 			this->groupBox7->Controls->Add(this->label32);
-			this->groupBox7->Location = System::Drawing::Point(297, 3);
+			this->groupBox7->Location = System::Drawing::Point(297, 0);
 			this->groupBox7->Name = L"groupBox7";
-			this->groupBox7->Size = System::Drawing::Size(558, 173);
+			this->groupBox7->Size = System::Drawing::Size(558, 176);
 			this->groupBox7->TabIndex = 21;
 			this->groupBox7->TabStop = false;
 			this->groupBox7->Text = L"Виза";
+			this->groupBox7->Enter += gcnew System::EventHandler(this, &MyForm::groupBox7_Enter);
+			// 
+			// VisaDriveOut
+			// 
+			this->VisaDriveOut->Cursor = System::Windows::Forms::Cursors::Default;
+			this->VisaDriveOut->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold));
+			this->VisaDriveOut->Location = System::Drawing::Point(222, 147);
+			this->VisaDriveOut->Mask = L"00";
+			this->VisaDriveOut->Name = L"VisaDriveOut";
+			this->VisaDriveOut->Size = System::Drawing::Size(29, 23);
+			this->VisaDriveOut->TabIndex = 40;
+			this->VisaDriveOut->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// VisaGive
+			// 
+			this->VisaGive->Cursor = System::Windows::Forms::Cursors::Default;
+			this->VisaGive->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold));
+			this->VisaGive->Location = System::Drawing::Point(6, 121);
+			this->VisaGive->Mask = L"00-00-00";
+			this->VisaGive->Name = L"VisaGive";
+			this->VisaGive->Size = System::Drawing::Size(86, 23);
+			this->VisaGive->TabIndex = 39;
+			this->VisaGive->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// VisaEnd
+			// 
+			this->VisaEnd->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold));
+			this->VisaEnd->Location = System::Drawing::Point(102, 79);
+			this->VisaEnd->Mask = L"00-00-00";
+			this->VisaEnd->Name = L"VisaEnd";
+			this->VisaEnd->Size = System::Drawing::Size(86, 23);
+			this->VisaEnd->TabIndex = 38;
+			this->VisaEnd->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// VisaStart
+			// 
+			this->VisaStart->Cursor = System::Windows::Forms::Cursors::Default;
+			this->VisaStart->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold));
+			this->VisaStart->Location = System::Drawing::Point(6, 79);
+			this->VisaStart->Mask = L"00-00-00";
+			this->VisaStart->Name = L"VisaStart";
+			this->VisaStart->Size = System::Drawing::Size(86, 23);
+			this->VisaStart->TabIndex = 23;
+			this->VisaStart->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
+			// 
+			// label31
+			// 
+			this->label31->AutoSize = true;
+			this->label31->Location = System::Drawing::Point(99, 152);
+			this->label31->Name = L"label31";
+			this->label31->Size = System::Drawing::Size(117, 14);
+			this->label31->TabIndex = 34;
+			this->label31->Text = L"Количество выездов";
+			// 
+			// VisaType
+			// 
+			this->VisaType->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->VisaType->Location = System::Drawing::Point(63, 149);
+			this->VisaType->Multiline = true;
+			this->VisaType->Name = L"VisaType";
+			this->VisaType->Size = System::Drawing::Size(29, 20);
+			this->VisaType->TabIndex = 33;
+			// 
+			// label30
+			// 
+			this->label30->AutoSize = true;
+			this->label30->Location = System::Drawing::Point(3, 153);
+			this->label30->Name = L"label30";
+			this->label30->Size = System::Drawing::Size(54, 14);
+			this->label30->TabIndex = 32;
+			this->label30->Text = L"Тип визы";
+			// 
+			// VisaPlace
+			// 
+			this->VisaPlace->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->VisaPlace->Location = System::Drawing::Point(102, 37);
+			this->VisaPlace->Multiline = true;
+			this->VisaPlace->Name = L"VisaPlace";
+			this->VisaPlace->Size = System::Drawing::Size(149, 22);
+			this->VisaPlace->TabIndex = 29;
+			// 
+			// label28
+			// 
+			this->label28->AutoSize = true;
+			this->label28->Location = System::Drawing::Point(99, 20);
+			this->label28->Name = L"label28";
+			this->label28->Size = System::Drawing::Size(110, 14);
+			this->label28->TabIndex = 28;
+			this->label28->Text = L"Место выдачи визы";
+			// 
+			// label29
+			// 
+			this->label29->AutoSize = true;
+			this->label29->Location = System::Drawing::Point(3, 104);
+			this->label29->Name = L"label29";
+			this->label29->Size = System::Drawing::Size(75, 14);
+			this->label29->TabIndex = 30;
+			this->label29->Text = L"Дата выдачи";
+			// 
+			// label27
+			// 
+			this->label27->AutoSize = true;
+			this->label27->Location = System::Drawing::Point(99, 62);
+			this->label27->Name = L"label27";
+			this->label27->Size = System::Drawing::Size(89, 14);
+			this->label27->TabIndex = 26;
+			this->label27->Text = L"Дата окончания";
+			// 
+			// label23
+			// 
+			this->label23->AutoSize = true;
+			this->label23->Location = System::Drawing::Point(3, 62);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(72, 14);
+			this->label23->TabIndex = 24;
+			this->label23->Text = L"Дата начала";
+			// 
+			// VisaNum
+			// 
+			this->VisaNum->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->VisaNum->Location = System::Drawing::Point(6, 37);
+			this->VisaNum->Multiline = true;
+			this->VisaNum->Name = L"VisaNum";
+			this->VisaNum->Size = System::Drawing::Size(86, 22);
+			this->VisaNum->TabIndex = 23;
+			// 
+			// label22
+			// 
+			this->label22->AutoSize = true;
+			this->label22->Location = System::Drawing::Point(3, 20);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(69, 14);
+			this->label22->TabIndex = 1;
+			this->label22->Text = L"Номер визы";
+			// 
+			// groupBox9
+			// 
+			this->groupBox9->Controls->Add(this->Addit);
+			this->groupBox9->Location = System::Drawing::Point(268, 10);
+			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Size = System::Drawing::Size(284, 157);
+			this->groupBox9->TabIndex = 0;
+			this->groupBox9->TabStop = false;
+			this->groupBox9->Text = L"Дополнительно";
+			// 
+			// Addit
+			// 
+			this->Addit->Controls->Add(this->tabPage5);
+			this->Addit->Controls->Add(this->tabPage6);
+			this->Addit->Location = System::Drawing::Point(6, 19);
+			this->Addit->Name = L"Addit";
+			this->Addit->SelectedIndex = 0;
+			this->Addit->Size = System::Drawing::Size(272, 132);
+			this->Addit->TabIndex = 0;
+			// 
+			// tabPage5
+			// 
+			this->tabPage5->BackColor = System::Drawing::SystemColors::Control;
+			this->tabPage5->Controls->Add(this->label46);
+			this->tabPage5->Controls->Add(this->label24);
+			this->tabPage5->Controls->Add(this->ComboBoxIn);
+			this->tabPage5->Controls->Add(this->VisaIn);
+			this->tabPage5->Location = System::Drawing::Point(4, 23);
+			this->tabPage5->Name = L"tabPage5";
+			this->tabPage5->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage5->Size = System::Drawing::Size(264, 105);
+			this->tabPage5->TabIndex = 0;
+			this->tabPage5->Text = L"Цель въезда";
+			// 
+			// label46
+			// 
+			this->label46->AutoSize = true;
+			this->label46->Location = System::Drawing::Point(3, 10);
+			this->label46->Name = L"label46";
+			this->label46->Size = System::Drawing::Size(43, 14);
+			this->label46->TabIndex = 44;
+			this->label46->Text = L"Кратко";
+			// 
+			// label24
+			// 
+			this->label24->AutoSize = true;
+			this->label24->Location = System::Drawing::Point(3, 35);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(56, 14);
+			this->label24->TabIndex = 43;
+			this->label24->Text = L"Подробно";
+			// 
+			// ComboBoxIn
+			// 
+			this->ComboBoxIn->FormattingEnabled = true;
+			this->ComboBoxIn->Items->AddRange(gcnew cli::array< System::Object^  >(10) {
+				L"Частный визит", L"Туризм", L"Учеба", L"Работа",
+					L"Гости", L"Спорт", L"Деловая/Бизнес", L"Культура", L"Служебные обязанности", L"Въездная виза"
+			});
+			this->ComboBoxIn->Location = System::Drawing::Point(61, 6);
+			this->ComboBoxIn->Name = L"ComboBoxIn";
+			this->ComboBoxIn->Size = System::Drawing::Size(197, 22);
+			this->ComboBoxIn->TabIndex = 42;
+			// 
+			// VisaIn
+			// 
+			this->VisaIn->Location = System::Drawing::Point(0, 52);
+			this->VisaIn->Name = L"VisaIn";
+			this->VisaIn->Size = System::Drawing::Size(264, 53);
+			this->VisaIn->TabIndex = 40;
+			this->VisaIn->Text = L"";
+			// 
+			// tabPage6
+			// 
+			this->tabPage6->BackColor = System::Drawing::SystemColors::Control;
+			this->tabPage6->Controls->Add(this->label47);
+			this->tabPage6->Controls->Add(this->ComboBoxDrive);
+			this->tabPage6->Controls->Add(this->label25);
+			this->tabPage6->Controls->Add(this->VisaDrive);
+			this->tabPage6->ForeColor = System::Drawing::Color::Black;
+			this->tabPage6->Location = System::Drawing::Point(4, 23);
+			this->tabPage6->Name = L"tabPage6";
+			this->tabPage6->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage6->Size = System::Drawing::Size(264, 105);
+			this->tabPage6->TabIndex = 1;
+			this->tabPage6->Text = L"Цель поездки";
+			// 
+			// label47
+			// 
+			this->label47->AutoSize = true;
+			this->label47->Location = System::Drawing::Point(3, 10);
+			this->label47->Name = L"label47";
+			this->label47->Size = System::Drawing::Size(43, 14);
+			this->label47->TabIndex = 48;
+			this->label47->Text = L"Кратко";
+			// 
+			// ComboBoxDrive
+			// 
+			this->ComboBoxDrive->FormattingEnabled = true;
+			this->ComboBoxDrive->Items->AddRange(gcnew cli::array< System::Object^  >(10) {
+				L"Частный визит", L"Туризм", L"Учеба", L"Работа",
+					L"Гости", L"Спорт", L"Деловая/Бизнес", L"Культура", L"Служебные обязанности", L"Въездная виза"
+			});
+			this->ComboBoxDrive->Location = System::Drawing::Point(61, 6);
+			this->ComboBoxDrive->Name = L"ComboBoxDrive";
+			this->ComboBoxDrive->Size = System::Drawing::Size(197, 22);
+			this->ComboBoxDrive->TabIndex = 47;
+			// 
+			// label25
+			// 
+			this->label25->AutoSize = true;
+			this->label25->Location = System::Drawing::Point(3, 35);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(56, 14);
+			this->label25->TabIndex = 46;
+			this->label25->Text = L"Подробно";
+			this->label25->Click += gcnew System::EventHandler(this, &MyForm::label25_Click);
+			// 
+			// VisaDrive
+			// 
+			this->VisaDrive->Location = System::Drawing::Point(0, 52);
+			this->VisaDrive->Name = L"VisaDrive";
+			this->VisaDrive->Size = System::Drawing::Size(264, 53);
+			this->VisaDrive->TabIndex = 44;
+			this->VisaDrive->Text = L"";
+			this->VisaDrive->TextChanged += gcnew System::EventHandler(this, &MyForm::richTextBox2_TextChanged);
+			// 
+			// label32
+			// 
+			this->label32->AutoSize = true;
+			this->label32->Location = System::Drawing::Point(92, 82);
+			this->label32->Name = L"label32";
+			this->label32->Size = System::Drawing::Size(11, 14);
+			this->label32->TabIndex = 23;
+			this->label32->Text = L"-";
 			// 
 			// groupBox6
 			// 
 			this->groupBox6->Controls->Add(this->label21);
-			this->groupBox6->Controls->Add(this->textBox3);
+			this->groupBox6->Controls->Add(this->KPP);
 			this->groupBox6->Controls->Add(this->DocumentNum);
 			this->groupBox6->Controls->Add(this->label9);
 			this->groupBox6->Controls->Add(this->label8);
 			this->groupBox6->Controls->Add(this->SerialNum);
 			this->groupBox6->Controls->Add(this->INN);
-			this->groupBox6->Location = System::Drawing::Point(3, 3);
+			this->groupBox6->Location = System::Drawing::Point(3, 0);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Size = System::Drawing::Size(288, 173);
+			this->groupBox6->Size = System::Drawing::Size(288, 176);
 			this->groupBox6->TabIndex = 20;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"Паспорт";
+			// 
+			// label21
+			// 
+			this->label21->Location = System::Drawing::Point(6, 99);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(133, 13);
+			this->label21->TabIndex = 21;
+			this->label21->Text = L"КПП въезда";
+			// 
+			// KPP
+			// 
+			this->KPP->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->KPP->Location = System::Drawing::Point(9, 115);
+			this->KPP->Multiline = true;
+			this->KPP->Name = L"KPP";
+			this->KPP->Size = System::Drawing::Size(130, 22);
+			this->KPP->TabIndex = 22;
 			// 
 			// DocumentNum
 			// 
@@ -724,6 +1250,20 @@ private: System::Windows::Forms::Label^ label32;
 			// tabPage4
 			// 
 			this->tabPage4->BackColor = System::Drawing::SystemColors::Control;
+			this->tabPage4->Controls->Add(this->label45);
+			this->tabPage4->Controls->Add(this->label44);
+			this->tabPage4->Controls->Add(this->label43);
+			this->tabPage4->Controls->Add(this->label42);
+			this->tabPage4->Controls->Add(this->label41);
+			this->tabPage4->Controls->Add(this->label40);
+			this->tabPage4->Controls->Add(this->label39);
+			this->tabPage4->Controls->Add(this->label38);
+			this->tabPage4->Controls->Add(this->label37);
+			this->tabPage4->Controls->Add(this->label36);
+			this->tabPage4->Controls->Add(this->trackBar1);
+			this->tabPage4->Controls->Add(this->label35);
+			this->tabPage4->Controls->Add(this->RoomNum);
+			this->tabPage4->Controls->Add(this->label34);
 			this->tabPage4->Location = System::Drawing::Point(4, 23);
 			this->tabPage4->Name = L"tabPage4";
 			this->tabPage4->Padding = System::Windows::Forms::Padding(3);
@@ -731,13 +1271,163 @@ private: System::Windows::Forms::Label^ label32;
 			this->tabPage4->TabIndex = 2;
 			this->tabPage4->Text = L"Номер";
 			// 
+			// label45
+			// 
+			this->label45->AutoSize = true;
+			this->label45->Font = (gcnew System::Drawing::Font(L"Calibri", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label45->Location = System::Drawing::Point(61, 154);
+			this->label45->Name = L"label45";
+			this->label45->Size = System::Drawing::Size(32, 14);
+			this->label45->TabIndex = 36;
+			this->label45->Text = L"этаж";
+			// 
+			// label44
+			// 
+			this->label44->AutoSize = true;
+			this->label44->Font = (gcnew System::Drawing::Font(L"Calibri", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label44->Location = System::Drawing::Point(61, 134);
+			this->label44->Name = L"label44";
+			this->label44->Size = System::Drawing::Size(32, 14);
+			this->label44->TabIndex = 35;
+			this->label44->Text = L"этаж";
+			// 
+			// label43
+			// 
+			this->label43->AutoSize = true;
+			this->label43->Font = (gcnew System::Drawing::Font(L"Calibri", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label43->Location = System::Drawing::Point(61, 116);
+			this->label43->Name = L"label43";
+			this->label43->Size = System::Drawing::Size(32, 14);
+			this->label43->TabIndex = 34;
+			this->label43->Text = L"этаж";
+			// 
+			// label42
+			// 
+			this->label42->AutoSize = true;
+			this->label42->Font = (gcnew System::Drawing::Font(L"Calibri", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label42->Location = System::Drawing::Point(61, 97);
+			this->label42->Name = L"label42";
+			this->label42->Size = System::Drawing::Size(32, 14);
+			this->label42->TabIndex = 33;
+			this->label42->Text = L"этаж";
+			// 
+			// label41
+			// 
+			this->label41->AutoSize = true;
+			this->label41->Font = (gcnew System::Drawing::Font(L"Calibri", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label41->Location = System::Drawing::Point(61, 77);
+			this->label41->Name = L"label41";
+			this->label41->Size = System::Drawing::Size(32, 14);
+			this->label41->TabIndex = 32;
+			this->label41->Text = L"этаж";
+			this->label41->Click += gcnew System::EventHandler(this, &MyForm::label41_Click);
+			// 
+			// label40
+			// 
+			this->label40->AutoSize = true;
+			this->label40->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label40->Location = System::Drawing::Point(46, 134);
+			this->label40->Name = L"label40";
+			this->label40->Size = System::Drawing::Size(13, 14);
+			this->label40->TabIndex = 31;
+			this->label40->Text = L"2";
+			// 
+			// label39
+			// 
+			this->label39->AutoSize = true;
+			this->label39->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label39->Location = System::Drawing::Point(46, 116);
+			this->label39->Name = L"label39";
+			this->label39->Size = System::Drawing::Size(13, 14);
+			this->label39->TabIndex = 30;
+			this->label39->Text = L"3";
+			// 
+			// label38
+			// 
+			this->label38->AutoSize = true;
+			this->label38->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label38->Location = System::Drawing::Point(45, 77);
+			this->label38->Name = L"label38";
+			this->label38->Size = System::Drawing::Size(13, 14);
+			this->label38->TabIndex = 29;
+			this->label38->Text = L"5";
+			// 
+			// label37
+			// 
+			this->label37->AutoSize = true;
+			this->label37->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label37->Location = System::Drawing::Point(46, 97);
+			this->label37->Name = L"label37";
+			this->label37->Size = System::Drawing::Size(13, 14);
+			this->label37->TabIndex = 28;
+			this->label37->Text = L"4";
+			// 
+			// label36
+			// 
+			this->label36->AutoSize = true;
+			this->label36->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label36->Location = System::Drawing::Point(46, 154);
+			this->label36->Name = L"label36";
+			this->label36->Size = System::Drawing::Size(13, 14);
+			this->label36->TabIndex = 27;
+			this->label36->Text = L"1";
+			// 
+			// trackBar1
+			// 
+			this->trackBar1->BackColor = System::Drawing::SystemColors::Control;
+			this->trackBar1->Cursor = System::Windows::Forms::Cursors::Default;
+			this->trackBar1->Location = System::Drawing::Point(13, 70);
+			this->trackBar1->Maximum = 4;
+			this->trackBar1->Name = L"trackBar1";
+			this->trackBar1->Orientation = System::Windows::Forms::Orientation::Vertical;
+			this->trackBar1->Size = System::Drawing::Size(45, 103);
+			this->trackBar1->TabIndex = 26;
+			// 
+			// label35
+			// 
+			this->label35->AutoSize = true;
+			this->label35->Location = System::Drawing::Point(10, 53);
+			this->label35->Name = L"label35";
+			this->label35->Size = System::Drawing::Size(35, 14);
+			this->label35->TabIndex = 25;
+			this->label35->Text = L"Этаж";
+			// 
+			// RoomNum
+			// 
+			this->RoomNum->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->RoomNum->Location = System::Drawing::Point(10, 24);
+			this->RoomNum->Multiline = true;
+			this->RoomNum->Name = L"RoomNum";
+			this->RoomNum->Size = System::Drawing::Size(49, 22);
+			this->RoomNum->TabIndex = 24;
+			// 
+			// label34
+			// 
+			this->label34->AutoSize = true;
+			this->label34->Location = System::Drawing::Point(7, 7);
+			this->label34->Name = L"label34";
+			this->label34->Size = System::Drawing::Size(88, 14);
+			this->label34->TabIndex = 0;
+			this->label34->Text = L"Номер комнаты";
+			// 
 			// tabPage3
 			// 
 			this->tabPage3->BackColor = System::Drawing::SystemColors::Control;
 			this->tabPage3->Location = System::Drawing::Point(4, 23);
 			this->tabPage3->Name = L"tabPage3";
 			this->tabPage3->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage3->Size = System::Drawing::Size(696, 206);
+			this->tabPage3->Size = System::Drawing::Size(858, 179);
 			this->tabPage3->TabIndex = 1;
 			this->tabPage3->Text = L"Маршрут следования (бета)";
 			// 
@@ -752,6 +1442,151 @@ private: System::Windows::Forms::Label^ label32;
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(1140, 415);
 			this->panel1->TabIndex = 0;
+			// 
+			// groupBox8
+			// 
+			this->groupBox8->Controls->Add(this->maskedTextBox1);
+			this->groupBox8->Controls->Add(this->label12);
+			this->groupBox8->Controls->Add(this->button2);
+			this->groupBox8->Controls->Add(this->label13);
+			this->groupBox8->Controls->Add(this->label14);
+			this->groupBox8->Controls->Add(this->dateTimePicker3);
+			this->groupBox8->Controls->Add(this->label15);
+			this->groupBox8->Controls->Add(this->dateTimePicker4);
+			this->groupBox8->Controls->Add(this->label16);
+			this->groupBox8->Controls->Add(this->dateTimePicker2);
+			this->groupBox8->Controls->Add(this->dateTimePicker1);
+			this->groupBox8->Controls->Add(this->label11);
+			this->groupBox8->Location = System::Drawing::Point(485, 3);
+			this->groupBox8->Name = L"groupBox8";
+			this->groupBox8->Size = System::Drawing::Size(390, 195);
+			this->groupBox8->TabIndex = 8;
+			this->groupBox8->TabStop = false;
+			this->groupBox8->Text = L"Журнал регистрации";
+			// 
+			// maskedTextBox1
+			// 
+			this->maskedTextBox1->Location = System::Drawing::Point(9, 167);
+			this->maskedTextBox1->Mask = L"90:00";
+			this->maskedTextBox1->Name = L"maskedTextBox1";
+			this->maskedTextBox1->Size = System::Drawing::Size(35, 20);
+			this->maskedTextBox1->TabIndex = 27;
+			this->maskedTextBox1->ValidatingType = System::DateTime::typeid;
+			// 
+			// label12
+			// 
+			this->label12->AutoSize = true;
+			this->label12->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label12->Location = System::Drawing::Point(157, 62);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(21, 15);
+			this->label12->TabIndex = 11;
+			this->label12->Text = L"по";
+			// 
+			// button2
+			// 
+			this->button2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->button2->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Red;
+			this->button2->FlatAppearance->MouseOverBackColor = System::Drawing::Color::Black;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button2->Location = System::Drawing::Point(184, 155);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(200, 32);
+			this->button2->TabIndex = 1;
+			this->button2->Text = L"Сохранить";
+			this->button2->UseVisualStyleBackColor = false;
+			// 
+			// label13
+			// 
+			this->label13->AutoSize = true;
+			this->label13->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label13->Location = System::Drawing::Point(161, 36);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(13, 15);
+			this->label13->TabIndex = 10;
+			this->label13->Text = L"c";
+			// 
+			// label14
+			// 
+			this->label14->AutoSize = true;
+			this->label14->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label14->Location = System::Drawing::Point(157, 130);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(21, 15);
+			this->label14->TabIndex = 9;
+			this->label14->Text = L"по";
+			// 
+			// dateTimePicker3
+			// 
+			this->dateTimePicker3->Location = System::Drawing::Point(184, 127);
+			this->dateTimePicker3->Name = L"dateTimePicker3";
+			this->dateTimePicker3->Size = System::Drawing::Size(200, 20);
+			this->dateTimePicker3->TabIndex = 8;
+			// 
+			// label15
+			// 
+			this->label15->AutoSize = true;
+			this->label15->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label15->Location = System::Drawing::Point(161, 104);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(13, 15);
+			this->label15->TabIndex = 7;
+			this->label15->Text = L"c";
+			// 
+			// dateTimePicker4
+			// 
+			this->dateTimePicker4->Location = System::Drawing::Point(184, 101);
+			this->dateTimePicker4->Name = L"dateTimePicker4";
+			this->dateTimePicker4->Size = System::Drawing::Size(200, 20);
+			this->dateTimePicker4->TabIndex = 6;
+			// 
+			// label16
+			// 
+			this->label16->AutoSize = true;
+			this->label16->BackColor = System::Drawing::Color::Green;
+			this->label16->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label16->ForeColor = System::Drawing::Color::White;
+			this->label16->Location = System::Drawing::Point(6, 106);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(145, 14);
+			this->label16->TabIndex = 5;
+			this->label16->Text = L"Дата выезда из гостиницы";
+			// 
+			// dateTimePicker2
+			// 
+			this->dateTimePicker2->Location = System::Drawing::Point(184, 59);
+			this->dateTimePicker2->Name = L"dateTimePicker2";
+			this->dateTimePicker2->Size = System::Drawing::Size(200, 20);
+			this->dateTimePicker2->TabIndex = 3;
+			// 
+			// dateTimePicker1
+			// 
+			this->dateTimePicker1->Location = System::Drawing::Point(184, 33);
+			this->dateTimePicker1->Name = L"dateTimePicker1";
+			this->dateTimePicker1->Size = System::Drawing::Size(200, 20);
+			this->dateTimePicker1->TabIndex = 1;
+			// 
+			// label11
+			// 
+			this->label11->AutoSize = true;
+			this->label11->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(128)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(128)));
+			this->label11->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label11->Location = System::Drawing::Point(6, 38);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(141, 14);
+			this->label11->TabIndex = 0;
+			this->label11->Text = L"Дата въезда в гостиницу ";
 			// 
 			// panel3
 			// 
@@ -795,53 +1630,15 @@ private: System::Windows::Forms::Label^ label32;
 			// 
 			// groupBox5
 			// 
-			this->groupBox5->Controls->Add(this->panel2);
 			this->groupBox5->Controls->Add(this->treeView1);
 			this->groupBox5->Controls->Add(this->monthCalendar1);
+			this->groupBox5->Controls->Add(this->tableLayoutPanel1);
 			this->groupBox5->Location = System::Drawing::Point(3, 3);
 			this->groupBox5->Name = L"groupBox5";
 			this->groupBox5->Size = System::Drawing::Size(476, 195);
 			this->groupBox5->TabIndex = 4;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"Управление";
-			// 
-			// panel2
-			// 
-			this->panel2->Controls->Add(this->button3);
-			this->panel2->Controls->Add(this->button2);
-			this->panel2->Location = System::Drawing::Point(236, 149);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(234, 38);
-			this->panel2->TabIndex = 5;
-			// 
-			// button3
-			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(0, 3);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(86, 33);
-			this->button3->TabIndex = 2;
-			this->button3->Text = L"Очистить";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &MyForm::ClearAll);
-			// 
-			// button2
-			// 
-			this->button2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
-				static_cast<System::Int32>(static_cast<System::Byte>(192)));
-			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
-				static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(192)));
-			this->button2->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Red;
-			this->button2->FlatAppearance->MouseOverBackColor = System::Drawing::Color::Black;
-			this->button2->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(148, 3);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(86, 33);
-			this->button2->TabIndex = 1;
-			this->button2->Text = L"Сохранить";
-			this->button2->UseVisualStyleBackColor = false;
 			// 
 			// treeView1
 			// 
@@ -887,7 +1684,7 @@ private: System::Windows::Forms::Label^ label32;
 			this->treeView1->Nodes->AddRange(gcnew cli::array< System::Windows::Forms::TreeNode^  >(2) { treeNode10, treeNode14 });
 			this->treeView1->RightToLeft = System::Windows::Forms::RightToLeft::No;
 			this->treeView1->ShowNodeToolTips = true;
-			this->treeView1->Size = System::Drawing::Size(234, 118);
+			this->treeView1->Size = System::Drawing::Size(234, 123);
 			this->treeView1->TabIndex = 2;
 			this->treeView1->AfterSelect += gcnew System::Windows::Forms::TreeViewEventHandler(this, &MyForm::treeView1_AfterSelect);
 			// 
@@ -898,460 +1695,43 @@ private: System::Windows::Forms::Label^ label32;
 			this->monthCalendar1->Name = L"monthCalendar1";
 			this->monthCalendar1->TabIndex = 1;
 			// 
-			// label10
-			// 
-			this->label10->Location = System::Drawing::Point(103, 103);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(133, 13);
-			this->label10->TabIndex = 16;
-			this->label10->Text = L"Прописка";
-			// 
-			// Registration
-			// 
-			this->Registration->Font = (gcnew System::Drawing::Font(L"Bahnschrift Light SemiCondensed", 10, System::Drawing::FontStyle::Regular,
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
-			this->Registration->Location = System::Drawing::Point(106, 120);
-			this->Registration->Multiline = true;
-			this->Registration->Name = L"Registration";
-			this->Registration->Size = System::Drawing::Size(130, 24);
-			this->Registration->TabIndex = 17;
-			// 
-			// groupBox8
-			// 
-			this->groupBox8->Controls->Add(this->label12);
-			this->groupBox8->Controls->Add(this->label13);
-			this->groupBox8->Controls->Add(this->label14);
-			this->groupBox8->Controls->Add(this->dateTimePicker3);
-			this->groupBox8->Controls->Add(this->label15);
-			this->groupBox8->Controls->Add(this->dateTimePicker4);
-			this->groupBox8->Controls->Add(this->label16);
-			this->groupBox8->Controls->Add(this->dateTimePicker2);
-			this->groupBox8->Controls->Add(this->dateTimePicker1);
-			this->groupBox8->Controls->Add(this->label11);
-			this->groupBox8->Location = System::Drawing::Point(485, 3);
-			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(390, 195);
-			this->groupBox8->TabIndex = 8;
-			this->groupBox8->TabStop = false;
-			this->groupBox8->Text = L"Журнал регистрации";
-			// 
-			// label11
-			// 
-			this->label11->AutoSize = true;
-			this->label11->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(128)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
-				static_cast<System::Int32>(static_cast<System::Byte>(128)));
-			this->label11->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label11->Location = System::Drawing::Point(6, 36);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(138, 14);
-			this->label11->TabIndex = 0;
-			this->label11->Text = L"Дата въезда в гостиницу";
-			// 
-			// dateTimePicker1
-			// 
-			this->dateTimePicker1->Location = System::Drawing::Point(184, 33);
-			this->dateTimePicker1->Name = L"dateTimePicker1";
-			this->dateTimePicker1->Size = System::Drawing::Size(200, 20);
-			this->dateTimePicker1->TabIndex = 1;
-			// 
-			// dateTimePicker2
-			// 
-			this->dateTimePicker2->Location = System::Drawing::Point(184, 59);
-			this->dateTimePicker2->Name = L"dateTimePicker2";
-			this->dateTimePicker2->Size = System::Drawing::Size(200, 20);
-			this->dateTimePicker2->TabIndex = 3;
-			// 
-			// label14
-			// 
-			this->label14->AutoSize = true;
-			this->label14->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label14->Location = System::Drawing::Point(157, 130);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(21, 15);
-			this->label14->TabIndex = 9;
-			this->label14->Text = L"по";
-			// 
-			// dateTimePicker3
-			// 
-			this->dateTimePicker3->Location = System::Drawing::Point(184, 127);
-			this->dateTimePicker3->Name = L"dateTimePicker3";
-			this->dateTimePicker3->Size = System::Drawing::Size(200, 20);
-			this->dateTimePicker3->TabIndex = 8;
-			// 
-			// label15
-			// 
-			this->label15->AutoSize = true;
-			this->label15->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label15->Location = System::Drawing::Point(161, 104);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(13, 15);
-			this->label15->TabIndex = 7;
-			this->label15->Text = L"c";
-			// 
-			// dateTimePicker4
-			// 
-			this->dateTimePicker4->Location = System::Drawing::Point(184, 101);
-			this->dateTimePicker4->Name = L"dateTimePicker4";
-			this->dateTimePicker4->Size = System::Drawing::Size(200, 20);
-			this->dateTimePicker4->TabIndex = 6;
-			// 
-			// label16
-			// 
-			this->label16->AutoSize = true;
-			this->label16->BackColor = System::Drawing::Color::Green;
-			this->label16->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label16->ForeColor = System::Drawing::Color::White;
-			this->label16->Location = System::Drawing::Point(5, 104);
-			this->label16->Name = L"label16";
-			this->label16->Size = System::Drawing::Size(145, 14);
-			this->label16->TabIndex = 5;
-			this->label16->Text = L"Дата выезда из гостиницы";
-			// 
-			// label12
-			// 
-			this->label12->AutoSize = true;
-			this->label12->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label12->Location = System::Drawing::Point(157, 62);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(21, 15);
-			this->label12->TabIndex = 11;
-			this->label12->Text = L"по";
-			// 
-			// label13
-			// 
-			this->label13->AutoSize = true;
-			this->label13->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label13->Location = System::Drawing::Point(161, 36);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(13, 15);
-			this->label13->TabIndex = 10;
-			this->label13->Text = L"c";
-			// 
-			// label17
-			// 
-			this->label17->AutoSize = true;
-			this->label17->Location = System::Drawing::Point(251, 37);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(86, 14);
-			this->label17->TabIndex = 18;
-			this->label17->Text = L"Дата рождиния";
-			// 
-			// textBox1
-			// 
-			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox1->Location = System::Drawing::Point(343, 32);
-			this->textBox1->Multiline = true;
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(34, 24);
-			this->textBox1->TabIndex = 19;
-			// 
-			// comboBox1
-			// 
-			this->comboBox1->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(12) {
-				L"Январь", L"Февраль", L"Март", L"Апрель", L"Май",
-					L"Июнь", L"Июль", L"Август", L"Сентябрь", L"Октябрь", L"Ноябрь", L"Декабрь"
-			});
-			this->comboBox1->Location = System::Drawing::Point(374, 32);
-			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(85, 24);
-			this->comboBox1->TabIndex = 20;
-			// 
-			// textBox2
-			// 
-			this->textBox2->Font = (gcnew System::Drawing::Font(L"Arial", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox2->Location = System::Drawing::Point(457, 32);
-			this->textBox2->Multiline = true;
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(54, 24);
-			this->textBox2->TabIndex = 21;
-			// 
-			// label18
-			// 
-			this->label18->AutoSize = true;
-			this->label18->Location = System::Drawing::Point(340, 15);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(37, 14);
-			this->label18->TabIndex = 22;
-			this->label18->Text = L"Число";
-			// 
-			// label19
-			// 
-			this->label19->AutoSize = true;
-			this->label19->Location = System::Drawing::Point(390, 15);
-			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(39, 14);
-			this->label19->TabIndex = 23;
-			this->label19->Text = L"Месяц";
-			// 
-			// label20
-			// 
-			this->label20->AutoSize = true;
-			this->label20->Location = System::Drawing::Point(470, 16);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(24, 14);
-			this->label20->TabIndex = 24;
-			this->label20->Text = L"Год";
-			// 
-			// label21
-			// 
-			this->label21->Location = System::Drawing::Point(6, 99);
-			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(133, 13);
-			this->label21->TabIndex = 21;
-			this->label21->Text = L"КПП въезда";
-			// 
-			// textBox3
-			// 
-			this->textBox3->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox3->Location = System::Drawing::Point(9, 115);
-			this->textBox3->Multiline = true;
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(130, 22);
-			this->textBox3->TabIndex = 22;
-			// 
-			// groupBox9
-			// 
-			this->groupBox9->Controls->Add(this->richTextBox2);
-			this->groupBox9->Controls->Add(this->richTextBox1);
-			this->groupBox9->Controls->Add(this->label25);
-			this->groupBox9->Controls->Add(this->label24);
-			this->groupBox9->Location = System::Drawing::Point(268, 19);
-			this->groupBox9->Name = L"groupBox9";
-			this->groupBox9->Size = System::Drawing::Size(284, 148);
-			this->groupBox9->TabIndex = 0;
-			this->groupBox9->TabStop = false;
-			this->groupBox9->Text = L"Дополнительно";
-			// 
-			// label22
-			// 
-			this->label22->AutoSize = true;
-			this->label22->Location = System::Drawing::Point(3, 20);
-			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(69, 14);
-			this->label22->TabIndex = 1;
-			this->label22->Text = L"Номер визы";
-			// 
-			// textBox4
-			// 
-			this->textBox4->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox4->Location = System::Drawing::Point(6, 37);
-			this->textBox4->Multiline = true;
-			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(86, 22);
-			this->textBox4->TabIndex = 23;
-			// 
-			// textBox6
-			// 
-			this->textBox6->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox6->Location = System::Drawing::Point(6, 79);
-			this->textBox6->Multiline = true;
-			this->textBox6->Name = L"textBox6";
-			this->textBox6->Size = System::Drawing::Size(86, 22);
-			this->textBox6->TabIndex = 25;
-			this->textBox6->Text = L"00-00-00";
-			// 
-			// label23
-			// 
-			this->label23->AutoSize = true;
-			this->label23->Location = System::Drawing::Point(3, 62);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(72, 14);
-			this->label23->TabIndex = 24;
-			this->label23->Text = L"Дата начала";
-			// 
-			// label24
-			// 
-			this->label24->AutoSize = true;
-			this->label24->Location = System::Drawing::Point(3, 20);
-			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(72, 14);
-			this->label24->TabIndex = 0;
-			this->label24->Text = L"Цель въезда";
-			// 
-			// label25
-			// 
-			this->label25->AutoSize = true;
-			this->label25->Location = System::Drawing::Point(3, 85);
-			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(75, 14);
-			this->label25->TabIndex = 3;
-			this->label25->Text = L"Цель поездки";
-			// 
-			// richTextBox1
-			// 
-			this->richTextBox1->Location = System::Drawing::Point(6, 37);
-			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(301, 45);
-			this->richTextBox1->TabIndex = 5;
-			this->richTextBox1->Text = L"";
-			// 
-			// richTextBox2
-			// 
-			this->richTextBox2->Location = System::Drawing::Point(6, 102);
-			this->richTextBox2->Name = L"richTextBox2";
-			this->richTextBox2->Size = System::Drawing::Size(301, 40);
-			this->richTextBox2->TabIndex = 6;
-			this->richTextBox2->Text = L"";
-			// 
-			// label26
-			// 
-			this->label26->AutoSize = true;
-			this->label26->Location = System::Drawing::Point(251, 63);
-			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(58, 14);
-			this->label26->TabIndex = 25;
-			this->label26->Text = L"Эл. Почта";
-			// 
-			// textBox7
-			// 
-			this->textBox7->BackColor = System::Drawing::SystemColors::Window;
-			this->textBox7->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox7->Location = System::Drawing::Point(254, 80);
-			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(257, 24);
-			this->textBox7->TabIndex = 6;
-			this->textBox7->Tag = L"NamePer";
-			// 
-			// textBox8
-			// 
-			this->textBox8->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox8->Location = System::Drawing::Point(102, 79);
-			this->textBox8->Multiline = true;
-			this->textBox8->Name = L"textBox8";
-			this->textBox8->Size = System::Drawing::Size(86, 22);
-			this->textBox8->TabIndex = 27;
-			this->textBox8->Text = L"00-00-00";
-			// 
-			// label27
-			// 
-			this->label27->AutoSize = true;
-			this->label27->Location = System::Drawing::Point(99, 62);
-			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(89, 14);
-			this->label27->TabIndex = 26;
-			this->label27->Text = L"Дата окончания";
-			// 
-			// textBox9
-			// 
-			this->textBox9->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox9->Location = System::Drawing::Point(102, 37);
-			this->textBox9->Multiline = true;
-			this->textBox9->Name = L"textBox9";
-			this->textBox9->Size = System::Drawing::Size(149, 22);
-			this->textBox9->TabIndex = 29;
-			// 
-			// label28
-			// 
-			this->label28->AutoSize = true;
-			this->label28->Location = System::Drawing::Point(99, 20);
-			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(110, 14);
-			this->label28->TabIndex = 28;
-			this->label28->Text = L"Место выдачи визы";
-			// 
-			// textBox10
-			// 
-			this->textBox10->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox10->Location = System::Drawing::Point(6, 121);
-			this->textBox10->Multiline = true;
-			this->textBox10->Name = L"textBox10";
-			this->textBox10->Size = System::Drawing::Size(86, 22);
-			this->textBox10->TabIndex = 31;
-			this->textBox10->Text = L"00-00-00";
-			// 
-			// label29
-			// 
-			this->label29->AutoSize = true;
-			this->label29->Location = System::Drawing::Point(3, 104);
-			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(75, 14);
-			this->label29->TabIndex = 30;
-			this->label29->Text = L"Дата выдачи";
-			// 
-			// textBox11
-			// 
-			this->textBox11->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox11->Location = System::Drawing::Point(63, 149);
-			this->textBox11->Multiline = true;
-			this->textBox11->Name = L"textBox11";
-			this->textBox11->Size = System::Drawing::Size(29, 20);
-			this->textBox11->TabIndex = 33;
-			// 
-			// label30
-			// 
-			this->label30->AutoSize = true;
-			this->label30->Location = System::Drawing::Point(3, 153);
-			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(54, 14);
-			this->label30->TabIndex = 32;
-			this->label30->Text = L"Тип визы";
-			// 
-			// textBox12
-			// 
-			this->textBox12->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox12->Location = System::Drawing::Point(222, 149);
-			this->textBox12->Multiline = true;
-			this->textBox12->Name = L"textBox12";
-			this->textBox12->Size = System::Drawing::Size(29, 20);
-			this->textBox12->TabIndex = 35;
-			this->textBox12->Text = L"01";
-			// 
-			// label31
-			// 
-			this->label31->AutoSize = true;
-			this->label31->Location = System::Drawing::Point(99, 152);
-			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(117, 14);
-			this->label31->TabIndex = 34;
-			this->label31->Text = L"Количество выездов";
-			// 
-			// label32
-			// 
-			this->label32->AutoSize = true;
-			this->label32->Location = System::Drawing::Point(92, 82);
-			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(11, 14);
-			this->label32->TabIndex = 23;
-			this->label32->Text = L"-";
-			// 
-			// textBox13
-			// 
-			this->textBox13->Font = (gcnew System::Drawing::Font(L"Arial", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox13->Location = System::Drawing::Point(102, 121);
-			this->textBox13->Multiline = true;
-			this->textBox13->Name = L"textBox13";
-			this->textBox13->Size = System::Drawing::Size(149, 22);
-			this->textBox13->TabIndex = 37;
-			// 
-			// label33
-			// 
-			this->label33->AutoSize = true;
-			this->label33->Location = System::Drawing::Point(99, 104);
-			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(73, 14);
-			this->label33->TabIndex = 36;
-			this->label33->Text = L"Цель выезда";
+			// tableLayoutPanel1
+			// 
+			this->tableLayoutPanel1->ColumnCount = 2;
+			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				50)));
+			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				50)));
+			this->tableLayoutPanel1->Controls->Add(this->button3, 1, 0);
+			this->tableLayoutPanel1->Controls->Add(this->button6, 0, 0);
+			this->tableLayoutPanel1->Location = System::Drawing::Point(232, 152);
+			this->tableLayoutPanel1->Name = L"tableLayoutPanel1";
+			this->tableLayoutPanel1->RowCount = 1;
+			this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel1->Size = System::Drawing::Size(245, 38);
+			this->tableLayoutPanel1->TabIndex = 37;
+			// 
+			// button3
+			// 
+			this->button3->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button3->Location = System::Drawing::Point(125, 3);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(114, 32);
+			this->button3->TabIndex = 2;
+			this->button3->Text = L"Очистить";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::ClearAll);
+			// 
+			// button6
+			// 
+			this->button6->BackColor = System::Drawing::Color::Silver;
+			this->button6->Location = System::Drawing::Point(3, 3);
+			this->button6->Name = L"button6";
+			this->button6->Size = System::Drawing::Size(116, 32);
+			this->button6->TabIndex = 14;
+			this->button6->Text = L"< Вернуть";
+			this->button6->UseVisualStyleBackColor = false;
 			// 
 			// MyForm
 			// 
@@ -1379,17 +1759,24 @@ private: System::Windows::Forms::Label^ label32;
 			this->tabPage2->ResumeLayout(false);
 			this->groupBox7->ResumeLayout(false);
 			this->groupBox7->PerformLayout();
+			this->groupBox9->ResumeLayout(false);
+			this->Addit->ResumeLayout(false);
+			this->tabPage5->ResumeLayout(false);
+			this->tabPage5->PerformLayout();
+			this->tabPage6->ResumeLayout(false);
+			this->tabPage6->PerformLayout();
 			this->groupBox6->ResumeLayout(false);
 			this->groupBox6->PerformLayout();
+			this->tabPage4->ResumeLayout(false);
+			this->tabPage4->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->EndInit();
 			this->panel1->ResumeLayout(false);
+			this->groupBox8->ResumeLayout(false);
+			this->groupBox8->PerformLayout();
 			this->panel3->ResumeLayout(false);
 			this->panel3->PerformLayout();
 			this->groupBox5->ResumeLayout(false);
-			this->panel2->ResumeLayout(false);
-			this->groupBox8->ResumeLayout(false);
-			this->groupBox8->PerformLayout();
-			this->groupBox9->ResumeLayout(false);
-			this->groupBox9->PerformLayout();
+			this->tableLayoutPanel1->ResumeLayout(false);
 			this->ResumeLayout(false);
 
 		}
@@ -1428,5 +1815,55 @@ private: System::Windows::Forms::Label^ label32;
 		SerialNum->Text = "";
 		//SerialNum->BackColor
 	}
+private: System::Void label41_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void DefaultFill(System::Object^ sender, System::EventArgs^ e) {
+	// Main
+
+		NamePer->Text = "Станислав";
+		Surname->Text = "Кракаш";
+		MiddleName->Text = "Xxxxxxxxx";
+		Year->Text = "16";
+		//Single->Checked->;
+
+		PhoneNumber->Text = "9981231212";
+		Country->Text = "Узбекистан";
+		Registration->Text = "Узбекистан";
+		Email->Text = "karakashstas@gmail.com";
+		BirthDay->Text = "14";
+		BirthMonth->Text = "Сентябрь";
+		BirthYear->Text = "2005";
+	// Documents
+		DocumentNum->Text = "1234567890";
+		INN->Text = "3589105";
+		KPP->Text = "9731752";
+		VisaNum->Text = "123456789";
+		VisaPlace->Text = "Россия";
+
+		VisaStart->Text = "040521";
+		VisaEnd->Text = "200822";
+		VisaGive->Text = "030621";
+		//VisaOut->Text = "";
+
+		VisaType->Text = "C";
+		VisaDriveOut->Text = "03";
+
+		VisaIn->Text = "Посетить страну";
+		ComboBoxIn->Text = "Учеба";
+
+		VisaDrive->Text = "Обучение в институте";
+		ComboBoxDrive->Text = "Учеба";
+
+		//Room
+		RoomNum->Text = "23";
+}
+private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void comboBox2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void groupBox7_Enter(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
