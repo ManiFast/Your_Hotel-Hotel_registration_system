@@ -1,5 +1,8 @@
 #pragma once
 
+#include "SaveModule.h"
+
+
 namespace YourHotelСистемаучетажителейотеля {
 
 	using namespace System;
@@ -8,6 +11,7 @@ namespace YourHotelСистемаучетажителейотеля {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace std;
 
 	/// <summary>
 	/// Сводка для MyForm
@@ -63,9 +67,10 @@ namespace YourHotelСистемаучетажителейотеля {
 	private: System::Windows::Forms::RadioButton^ Male;
 
 	private: System::Windows::Forms::GroupBox^ groupBox5;
+	private: System::Windows::Forms::CheckBox^ vip_check;
 
 
-	private: System::Windows::Forms::CheckBox^ checkBox1;
+
 
 
 	private: System::Windows::Forms::Button^ button2;
@@ -269,7 +274,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->checkBox1 = (gcnew System::Windows::Forms::CheckBox());
+			this->vip_check = (gcnew System::Windows::Forms::CheckBox());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
 			this->PhoneNumber = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->Email = (gcnew System::Windows::Forms::TextBox());
@@ -431,7 +436,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// 
 			this->groupBox1->BackColor = System::Drawing::SystemColors::Control;
 			this->groupBox1->Controls->Add(this->button1);
-			this->groupBox1->Controls->Add(this->checkBox1);
+			this->groupBox1->Controls->Add(this->vip_check);
 			this->groupBox1->Controls->Add(this->groupBox3);
 			this->groupBox1->Controls->Add(this->groupBox2);
 			this->groupBox1->ForeColor = System::Drawing::SystemColors::ControlText;
@@ -456,20 +461,20 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::DefaultFill);
 			// 
-			// checkBox1
+			// vip_check
 			// 
-			this->checkBox1->AutoSize = true;
-			this->checkBox1->BackColor = System::Drawing::SystemColors::ControlDark;
-			this->checkBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->vip_check->AutoSize = true;
+			this->vip_check->BackColor = System::Drawing::SystemColors::ControlDark;
+			this->vip_check->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->checkBox1->ForeColor = System::Drawing::Color::Yellow;
-			this->checkBox1->Location = System::Drawing::Point(70, 2);
-			this->checkBox1->Name = L"checkBox1";
-			this->checkBox1->Size = System::Drawing::Size(46, 17);
-			this->checkBox1->TabIndex = 9;
-			this->checkBox1->Text = L"VIP";
-			this->checkBox1->UseVisualStyleBackColor = false;
-			this->checkBox1->CheckedChanged += gcnew System::EventHandler(this, &MyForm::checkBox1_CheckedChanged);
+			this->vip_check->ForeColor = System::Drawing::Color::Yellow;
+			this->vip_check->Location = System::Drawing::Point(70, 2);
+			this->vip_check->Name = L"vip_check";
+			this->vip_check->Size = System::Drawing::Size(46, 17);
+			this->vip_check->TabIndex = 9;
+			this->vip_check->Text = L"VIP";
+			this->vip_check->UseVisualStyleBackColor = false;
+			this->vip_check->CheckedChanged += gcnew System::EventHandler(this, &MyForm::checkBox1_CheckedChanged);
 			// 
 			// groupBox3
 			// 
@@ -513,7 +518,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// Email
 			// 
 			this->Email->BackColor = System::Drawing::SystemColors::Window;
-			this->Email->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Email->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Email->Location = System::Drawing::Point(254, 80);
 			this->Email->Name = L"Email";
@@ -622,7 +627,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// 
 			this->textBox5->BackColor = System::Drawing::Color::Gainsboro;
 			this->textBox5->Enabled = false;
-			this->textBox5->Font = (gcnew System::Drawing::Font(L"Bookman Old Style", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->textBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->textBox5->Location = System::Drawing::Point(106, 32);
 			this->textBox5->Multiline = true;
@@ -1294,55 +1299,55 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// label40
 			// 
 			this->label40->AutoSize = true;
-			this->label40->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label40->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label40->Location = System::Drawing::Point(46, 134);
 			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(13, 14);
+			this->label40->Size = System::Drawing::Size(14, 13);
 			this->label40->TabIndex = 31;
 			this->label40->Text = L"2";
 			// 
 			// label39
 			// 
 			this->label39->AutoSize = true;
-			this->label39->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label39->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label39->Location = System::Drawing::Point(46, 116);
 			this->label39->Name = L"label39";
-			this->label39->Size = System::Drawing::Size(13, 14);
+			this->label39->Size = System::Drawing::Size(14, 13);
 			this->label39->TabIndex = 30;
 			this->label39->Text = L"3";
 			// 
 			// label38
 			// 
 			this->label38->AutoSize = true;
-			this->label38->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label38->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label38->Location = System::Drawing::Point(45, 77);
 			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(13, 14);
+			this->label38->Size = System::Drawing::Size(14, 13);
 			this->label38->TabIndex = 29;
 			this->label38->Text = L"5";
 			// 
 			// label37
 			// 
 			this->label37->AutoSize = true;
-			this->label37->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label37->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label37->Location = System::Drawing::Point(46, 97);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(13, 14);
+			this->label37->Size = System::Drawing::Size(14, 13);
 			this->label37->TabIndex = 28;
 			this->label37->Text = L"4";
 			// 
 			// label36
 			// 
 			this->label36->AutoSize = true;
-			this->label36->Font = (gcnew System::Drawing::Font(L"Bookshelf Symbol 7", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label36->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label36->Location = System::Drawing::Point(46, 154);
 			this->label36->Name = L"label36";
-			this->label36->Size = System::Drawing::Size(13, 14);
+			this->label36->Size = System::Drawing::Size(14, 13);
 			this->label36->TabIndex = 27;
 			this->label36->Text = L"1";
 			// 
@@ -1464,6 +1469,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Сохранить";
 			this->button2->UseVisualStyleBackColor = false;
+			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// label13
 			// 
@@ -1707,7 +1713,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"MyForm";
 			this->RightToLeft = System::Windows::Forms::RightToLeft::No;
-			this->Text = L"Your Hotel - Система учета жителей отеля (v2.1)";
+			this->Text = L"Your Hotel - Система учета жителей отеля (v3.0)";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
@@ -1745,7 +1751,11 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 
 		}
 #pragma endregion
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //hide console window
+//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //hide console window
+	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+
+	}
+				 //==============================================================
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 
@@ -1755,9 +1765,8 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 	}
 	private: System::Void groupBox4_Enter(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-	}
 	private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+
 	}
 	private: System::Void treeView1_AfterSelect(System::Object^ sender, System::Windows::Forms::TreeViewEventArgs^ e) {
 	}
@@ -1769,6 +1778,37 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 		INN->Text = "";
 		DocumentNum->Text = "";
 		Year->Text = "";
+
+		PhoneNumber->Text = "";
+		Country->Text = "";
+		Registration->Text = "";
+		Email->Text = "";
+		BirthDay->Text = "";
+		BirthMonth->Text = "";
+		BirthYear->Text = "";
+		// Documents
+		DocumentNum->Text = "";
+		INN->Text = "";
+		KPP->Text = "";
+		VisaNum->Text = "";
+		VisaPlace->Text = "";
+
+		VisaStart->Text = "";
+		VisaEnd->Text = "";
+		VisaGive->Text = "";
+		//VisaOut->Text = "";
+
+		VisaType->Text = "";
+		VisaDriveOut->Text = "";
+
+		VisaIn->Text = "";
+		ComboBoxIn->Text = "";
+
+		VisaDrive->Text = "";
+		ComboBoxDrive->Text = "";
+
+		//Room
+		RoomNum->Text = "";
 	}
 	private: System::Void ClearYear(System::Object^ sender, System::EventArgs^ e) {
 		Year->Text = "";
@@ -1828,6 +1868,22 @@ private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void comboBox2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void groupBox7_Enter(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	voice();
+
+	String^ aaa = System::Convert::ToString(NamePer->Text);
+
+	vector<string> bbb;
+	bbb.push_back("SSS");
+
+	bool vip = 0;
+
+	if (vip_check->Checked)
+		vip = 1;
+
+	save(NamePer->Text, vip);
+
 }
 };
 }
