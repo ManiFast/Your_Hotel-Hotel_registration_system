@@ -3,6 +3,9 @@
 
 using namespace YourHotelСистемаучетажителейотеля; // Name of project
 
+// Modal win
+[STAThread]
+
 int main()
 {
 	int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int);

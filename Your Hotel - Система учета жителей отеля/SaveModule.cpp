@@ -36,3 +36,14 @@ int save(String^ NamePerStr, bool vip)
 	fout.close();
 	return 0;
 }
+
+int saveNew(String^ Path, String^ Text)
+{
+	File::Create(Path);
+
+	StreamReader^ file = File::OpenText(Path);
+
+	Text = file->ReadToEnd();
+
+	return 0;
+}
