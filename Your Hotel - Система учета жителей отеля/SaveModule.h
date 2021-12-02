@@ -14,8 +14,11 @@
 using namespace std;
 using namespace System;
 
+using namespace System::IO;
+
 void voice();
 int save(String^ NamePerStr, bool vip);
+int saveNew(String^ Path, String^ Text);
 
 
 #endif

@@ -11,6 +11,7 @@ namespace YourHotelСистемаучетажителейотеля {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::IO;
 	using namespace std;
 
 	/// <summary>
@@ -74,7 +75,7 @@ namespace YourHotelСистемаучетажителейотеля {
 
 
 	private: System::Windows::Forms::Button^ button2;
-	private: System::Windows::Forms::Label^ label5;
+
 	private: System::Windows::Forms::NumericUpDown^ Year;
 
 	private: System::Windows::Forms::Button^ button3;
@@ -122,116 +123,125 @@ namespace YourHotelСистемаучетажителейотеля {
 
 
 
-private: System::Windows::Forms::Label^ label17;
-private: System::Windows::Forms::TextBox^ BirthYear;
+	private: System::Windows::Forms::Label^ label17;
+	private: System::Windows::Forms::TextBox^ BirthYear;
 
-private: System::Windows::Forms::ComboBox^ BirthMonth;
+	private: System::Windows::Forms::ComboBox^ BirthMonth;
 
-private: System::Windows::Forms::Label^ label20;
-private: System::Windows::Forms::Label^ label19;
-private: System::Windows::Forms::Label^ label18;
+	private: System::Windows::Forms::Label^ label20;
+	private: System::Windows::Forms::Label^ label19;
+	private: System::Windows::Forms::Label^ label18;
 
-private: System::Windows::Forms::Label^ label22;
-private: System::Windows::Forms::GroupBox^ groupBox9;
-private: System::Windows::Forms::Label^ label21;
-private: System::Windows::Forms::TextBox^ KPP;
-
-
-
-private: System::Windows::Forms::Label^ label23;
-private: System::Windows::Forms::TextBox^ VisaNum;
+	private: System::Windows::Forms::Label^ label22;
+	private: System::Windows::Forms::GroupBox^ groupBox9;
+	private: System::Windows::Forms::Label^ label21;
+	private: System::Windows::Forms::TextBox^ KPP;
 
 
 
-
-
-private: System::Windows::Forms::TextBox^ Email;
-
-private: System::Windows::Forms::Label^ label26;
+	private: System::Windows::Forms::Label^ label23;
+	private: System::Windows::Forms::TextBox^ VisaNum;
 
 
 
 
 
+	private: System::Windows::Forms::TextBox^ Email;
 
-private: System::Windows::Forms::Label^ label29;
-private: System::Windows::Forms::TextBox^ VisaPlace;
-
-private: System::Windows::Forms::Label^ label28;
-
-
-private: System::Windows::Forms::Label^ label27;
-private: System::Windows::Forms::TextBox^ VisaType;
-
-private: System::Windows::Forms::Label^ label30;
-
-
-private: System::Windows::Forms::Label^ label31;
-
-
-
-private: System::Windows::Forms::Label^ label32;
-
-private: System::Windows::Forms::Label^ label34;
-private: System::Windows::Forms::Label^ label41;
-private: System::Windows::Forms::Label^ label40;
-private: System::Windows::Forms::Label^ label39;
-private: System::Windows::Forms::Label^ label38;
-private: System::Windows::Forms::Label^ label37;
-private: System::Windows::Forms::Label^ label36;
-private: System::Windows::Forms::TrackBar^ trackBar1;
-private: System::Windows::Forms::Label^ label35;
-private: System::Windows::Forms::TextBox^ RoomNum;
-
-private: System::Windows::Forms::Label^ label45;
-private: System::Windows::Forms::Label^ label44;
-private: System::Windows::Forms::Label^ label43;
-private: System::Windows::Forms::Label^ label42;
-private: System::Windows::Forms::Button^ button1;
-private: System::Windows::Forms::Label^ label12;
-private: System::Windows::Forms::Label^ label13;
-private: System::Windows::Forms::Label^ label14;
-private: System::Windows::Forms::DateTimePicker^ dateTimePicker3;
-private: System::Windows::Forms::Label^ label15;
-private: System::Windows::Forms::DateTimePicker^ dateTimePicker4;
-private: System::Windows::Forms::Label^ label16;
-private: System::Windows::Forms::DateTimePicker^ dateTimePicker2;
-private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
-private: System::Windows::Forms::Label^ label11;
-private: System::Windows::Forms::TabControl^ Addit;
-
-
-private: System::Windows::Forms::TabPage^ tabPage5;
-private: System::Windows::Forms::TabPage^ tabPage6;
-private: System::Windows::Forms::ComboBox^ ComboBoxIn;
+	private: System::Windows::Forms::Label^ label26;
 
 
 
 
 
 
+	private: System::Windows::Forms::Label^ label29;
+	private: System::Windows::Forms::TextBox^ VisaPlace;
+
+	private: System::Windows::Forms::Label^ label28;
 
 
-private: System::Windows::Forms::RichTextBox^ VisaIn;
+	private: System::Windows::Forms::Label^ label27;
+	private: System::Windows::Forms::TextBox^ VisaType;
+
+	private: System::Windows::Forms::Label^ label30;
 
 
-private: System::Windows::Forms::Label^ label24;
-private: System::Windows::Forms::Label^ label25;
+	private: System::Windows::Forms::Label^ label31;
 
-private: System::Windows::Forms::RichTextBox^ VisaDrive;
-private: System::Windows::Forms::Label^ label46;
-private: System::Windows::Forms::Label^ label47;
-private: System::Windows::Forms::ComboBox^ ComboBoxDrive;
 
-private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel1;
-private: System::Windows::Forms::Button^ button6;
-private: System::Windows::Forms::MaskedTextBox^ PhoneNumber;
-private: System::Windows::Forms::MaskedTextBox^ VisaEnd;
-private: System::Windows::Forms::MaskedTextBox^ VisaStart;
 
-private: System::Windows::Forms::MaskedTextBox^ maskedTextBox1;
-private: System::Windows::Forms::MaskedTextBox^ VisaGive;
-private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
+	private: System::Windows::Forms::Label^ label32;
+
+	private: System::Windows::Forms::Label^ label34;
+	private: System::Windows::Forms::Label^ label41;
+	private: System::Windows::Forms::Label^ label40;
+	private: System::Windows::Forms::Label^ label39;
+	private: System::Windows::Forms::Label^ label38;
+	private: System::Windows::Forms::Label^ label37;
+	private: System::Windows::Forms::Label^ label36;
+	private: System::Windows::Forms::TrackBar^ trackBar1;
+	private: System::Windows::Forms::Label^ label35;
+	private: System::Windows::Forms::TextBox^ RoomNum;
+
+	private: System::Windows::Forms::Label^ label45;
+	private: System::Windows::Forms::Label^ label44;
+	private: System::Windows::Forms::Label^ label43;
+	private: System::Windows::Forms::Label^ label42;
+	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Label^ label12;
+	private: System::Windows::Forms::Label^ label13;
+	private: System::Windows::Forms::Label^ label14;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker3;
+	private: System::Windows::Forms::Label^ label15;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker4;
+	private: System::Windows::Forms::Label^ label16;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker2;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
+	private: System::Windows::Forms::Label^ label11;
+	private: System::Windows::Forms::TabControl^ Addit;
+
+
+	private: System::Windows::Forms::TabPage^ tabPage5;
+	private: System::Windows::Forms::TabPage^ tabPage6;
+	private: System::Windows::Forms::ComboBox^ ComboBoxIn;
+
+
+
+
+
+
+
+
+	private: System::Windows::Forms::RichTextBox^ VisaIn;
+
+
+	private: System::Windows::Forms::Label^ label24;
+	private: System::Windows::Forms::Label^ label25;
+
+	private: System::Windows::Forms::RichTextBox^ VisaDrive;
+	private: System::Windows::Forms::Label^ label46;
+	private: System::Windows::Forms::Label^ label47;
+	private: System::Windows::Forms::ComboBox^ ComboBoxDrive;
+
+	private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel1;
+	private: System::Windows::Forms::Button^ button6;
+	private: System::Windows::Forms::MaskedTextBox^ PhoneNumber;
+	private: System::Windows::Forms::MaskedTextBox^ VisaEnd;
+	private: System::Windows::Forms::MaskedTextBox^ VisaStart;
+
+	private: System::Windows::Forms::MaskedTextBox^ maskedTextBox1;
+	private: System::Windows::Forms::MaskedTextBox^ VisaGive;
+	private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
+	private: System::Windows::Forms::Button^ clearList;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker5;
+	private: System::Windows::Forms::Button^ DeleteListItem;
+
+	private: System::Windows::Forms::GroupBox^ groupBox10;
+	private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
+private: System::Windows::Forms::Button^ InputPath;
+private: System::Windows::Forms::SaveFileDialog^ saveFileDialog1;
+
 
 	protected:
 
@@ -359,7 +369,11 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->groupBox10 = (gcnew System::Windows::Forms::GroupBox());
+			this->DeleteListItem = (gcnew System::Windows::Forms::Button());
+			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->InputPath = (gcnew System::Windows::Forms::Button());
 			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
@@ -373,14 +387,16 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
 			this->label11 = (gcnew System::Windows::Forms::Label());
 			this->panel3 = (gcnew System::Windows::Forms::Panel());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
 			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->dateTimePicker5 = (gcnew System::Windows::Forms::DateTimePicker());
+			this->clearList = (gcnew System::Windows::Forms::Button());
 			this->treeView1 = (gcnew System::Windows::Forms::TreeView());
 			this->monthCalendar1 = (gcnew System::Windows::Forms::MonthCalendar());
 			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
+			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
 			tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			tabControl1->SuspendLayout();
 			this->tabPage1->SuspendLayout();
@@ -399,8 +415,8 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->tabPage4->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->BeginInit();
 			this->panel1->SuspendLayout();
+			this->groupBox10->SuspendLayout();
 			this->groupBox8->SuspendLayout();
-			this->panel3->SuspendLayout();
 			this->groupBox5->SuspendLayout();
 			this->tableLayoutPanel1->SuspendLayout();
 			this->SuspendLayout();
@@ -1403,6 +1419,7 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// panel1
 			// 
 			this->panel1->BackColor = System::Drawing::Color::Transparent;
+			this->panel1->Controls->Add(this->groupBox10);
 			this->panel1->Controls->Add(this->groupBox8);
 			this->panel1->Controls->Add(tabControl1);
 			this->panel1->Controls->Add(this->panel3);
@@ -1412,8 +1429,51 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->panel1->Size = System::Drawing::Size(1140, 415);
 			this->panel1->TabIndex = 0;
 			// 
+			// groupBox10
+			// 
+			this->groupBox10->Controls->Add(this->DeleteListItem);
+			this->groupBox10->Controls->Add(this->listBox1);
+			this->groupBox10->Location = System::Drawing::Point(885, 4);
+			this->groupBox10->Name = L"groupBox10";
+			this->groupBox10->Size = System::Drawing::Size(255, 408);
+			this->groupBox10->TabIndex = 27;
+			this->groupBox10->TabStop = false;
+			this->groupBox10->Text = L"Жители";
+			// 
+			// DeleteListItem
+			// 
+			this->DeleteListItem->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->DeleteListItem->Location = System::Drawing::Point(184, 12);
+			this->DeleteListItem->Name = L"DeleteListItem";
+			this->DeleteListItem->Size = System::Drawing::Size(65, 23);
+			this->DeleteListItem->TabIndex = 27;
+			this->DeleteListItem->Text = L"Удалить";
+			this->DeleteListItem->UseVisualStyleBackColor = true;
+			this->DeleteListItem->Click += gcnew System::EventHandler(this, &MyForm::DeleteListItem_Click);
+			// 
+			// listBox1
+			// 
+			this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->listBox1->FormattingEnabled = true;
+			this->listBox1->ItemHeight = 14;
+			this->listBox1->Items->AddRange(gcnew cli::array< System::Object^  >(30) {
+				L"Коровина Ксения Александровна", L"Алексеева Софья Арсентьевна",
+					L"Борисова Маргарита Мироновна", L"Муравьева Александра Глебовна", L"Волков Сергей Денисович", L"Орлов Макар Романович", L"Федоров Ярослав Алексеевич",
+					L"Карпов Артём Павлович", L"Васильев Ярослав Сергеевич", L"Петровская Екатерина Константиновна", L"Михайлов Артём Михайлович",
+					L"Попова Кристина Матвеевна", L"Сорокин Ярослав Андреевич", L"Полякова Алина Антоновна", L"Дорохов Александр Никитич", L"Кравцова Мария Михайловна",
+					L"Лебедев Даниил Романович", L"Лебедев Михаил Максимович", L"Кондратов Тимофей Маркович", L"Никольская Диана Михайловна", L"Дмитриева София Львовна",
+					L"Киреев Иван Степанович", L"Сальников Демид Тимурович", L"Бирюков Александр Германович", L"Тарасова Милана Фёдоровна", L"Орехова Полина Фёдоровна",
+					L"Лавров Никита Антонович", L"Лосева Василиса Михайловна", L"Богданов Никита Павлович", L"Корнеева Ксения Кирилловна"
+			});
+			this->listBox1->Location = System::Drawing::Point(0, 44);
+			this->listBox1->Name = L"listBox1";
+			this->listBox1->Size = System::Drawing::Size(255, 368);
+			this->listBox1->TabIndex = 1;
+			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->InputPath);
 			this->groupBox8->Controls->Add(this->maskedTextBox1);
 			this->groupBox8->Controls->Add(this->label12);
 			this->groupBox8->Controls->Add(this->button2);
@@ -1432,6 +1492,23 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->groupBox8->TabIndex = 8;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"Журнал регистрации";
+			// 
+			// InputPath
+			// 
+			this->InputPath->BackColor = System::Drawing::Color::White;
+			this->InputPath->FlatAppearance->BorderColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->InputPath->FlatAppearance->MouseDownBackColor = System::Drawing::Color::Red;
+			this->InputPath->FlatAppearance->MouseOverBackColor = System::Drawing::Color::Black;
+			this->InputPath->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->InputPath->Location = System::Drawing::Point(184, 155);
+			this->InputPath->Name = L"InputPath";
+			this->InputPath->Size = System::Drawing::Size(47, 32);
+			this->InputPath->TabIndex = 28;
+			this->InputPath->Text = L"Путь";
+			this->InputPath->UseVisualStyleBackColor = false;
+			this->InputPath->Click += gcnew System::EventHandler(this, &MyForm::InputPath_Click);
 			// 
 			// maskedTextBox1
 			// 
@@ -1463,9 +1540,9 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->button2->FlatAppearance->MouseOverBackColor = System::Drawing::Color::Black;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(184, 155);
+			this->button2->Location = System::Drawing::Point(237, 155);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(200, 32);
+			this->button2->Size = System::Drawing::Size(147, 32);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Сохранить";
 			this->button2->UseVisualStyleBackColor = false;
@@ -1560,46 +1637,15 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			// 
 			// panel3
 			// 
-			this->panel3->Controls->Add(this->label5);
-			this->panel3->Controls->Add(this->listBox1);
-			this->panel3->Location = System::Drawing::Point(885, 12);
+			this->panel3->Location = System::Drawing::Point(885, 3);
 			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(255, 403);
+			this->panel3->Size = System::Drawing::Size(255, 412);
 			this->panel3->TabIndex = 6;
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft PhagsPa", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label5->Location = System::Drawing::Point(3, 0);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(51, 15);
-			this->label5->TabIndex = 5;
-			this->label5->Text = L"Жители";
-			// 
-			// listBox1
-			// 
-			this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->listBox1->FormattingEnabled = true;
-			this->listBox1->ItemHeight = 14;
-			this->listBox1->Items->AddRange(gcnew cli::array< System::Object^  >(30) {
-				L"Коровина Ксения Александровна", L"Алексеева Софья Арсентьевна",
-					L"Борисова Маргарита Мироновна", L"Муравьева Александра Глебовна", L"Волков Сергей Денисович", L"Орлов Макар Романович", L"Федоров Ярослав Алексеевич",
-					L"Карпов Артём Павлович", L"Васильев Ярослав Сергеевич", L"Петровская Екатерина Константиновна", L"Михайлов Артём Михайлович",
-					L"Попова Кристина Матвеевна", L"Сорокин Ярослав Андреевич", L"Полякова Алина Антоновна", L"Дорохов Александр Никитич", L"Кравцова Мария Михайловна",
-					L"Лебедев Даниил Романович", L"Лебедев Михаил Максимович", L"Кондратов Тимофей Маркович", L"Никольская Диана Михайловна", L"Дмитриева София Львовна",
-					L"Киреев Иван Степанович", L"Сальников Демид Тимурович", L"Бирюков Александр Германович", L"Тарасова Милана Фёдоровна", L"Орехова Полина Фёдоровна",
-					L"Лавров Никита Антонович", L"Лосева Василиса Михайловна", L"Богданов Никита Павлович", L"Корнеева Ксения Кирилловна"
-			});
-			this->listBox1->Location = System::Drawing::Point(3, 18);
-			this->listBox1->Name = L"listBox1";
-			this->listBox1->Size = System::Drawing::Size(248, 382);
-			this->listBox1->TabIndex = 1;
 			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->dateTimePicker5);
+			this->groupBox5->Controls->Add(this->clearList);
 			this->groupBox5->Controls->Add(this->treeView1);
 			this->groupBox5->Controls->Add(this->monthCalendar1);
 			this->groupBox5->Controls->Add(this->tableLayoutPanel1);
@@ -1609,6 +1655,28 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->groupBox5->TabIndex = 4;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"Управление";
+			// 
+			// dateTimePicker5
+			// 
+			this->dateTimePicker5->Location = System::Drawing::Point(236, 128);
+			this->dateTimePicker5->Name = L"dateTimePicker5";
+			this->dateTimePicker5->Size = System::Drawing::Size(234, 20);
+			this->dateTimePicker5->TabIndex = 28;
+			// 
+			// clearList
+			// 
+			this->clearList->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(150)),
+				static_cast<System::Int32>(static_cast<System::Byte>(150)));
+			this->clearList->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->clearList->ForeColor = System::Drawing::SystemColors::ControlText;
+			this->clearList->Location = System::Drawing::Point(438, 155);
+			this->clearList->Name = L"clearList";
+			this->clearList->Size = System::Drawing::Size(32, 32);
+			this->clearList->TabIndex = 28;
+			this->clearList->Text = L"All";
+			this->clearList->UseVisualStyleBackColor = false;
+			this->clearList->Click += gcnew System::EventHandler(this, &MyForm::clearList_Click);
 			// 
 			// treeView1
 			// 
@@ -1672,36 +1740,40 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 				50)));
 			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				50)));
-			this->tableLayoutPanel1->Controls->Add(this->button3, 1, 0);
 			this->tableLayoutPanel1->Controls->Add(this->button6, 0, 0);
+			this->tableLayoutPanel1->Controls->Add(this->button3, 1, 0);
 			this->tableLayoutPanel1->Location = System::Drawing::Point(232, 152);
 			this->tableLayoutPanel1->Name = L"tableLayoutPanel1";
 			this->tableLayoutPanel1->RowCount = 1;
 			this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-			this->tableLayoutPanel1->Size = System::Drawing::Size(245, 38);
+			this->tableLayoutPanel1->Size = System::Drawing::Size(212, 38);
 			this->tableLayoutPanel1->TabIndex = 37;
-			// 
-			// button3
-			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(125, 3);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(114, 32);
-			this->button3->TabIndex = 2;
-			this->button3->Text = L"Очистить";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &MyForm::ClearAll);
 			// 
 			// button6
 			// 
 			this->button6->BackColor = System::Drawing::Color::Silver;
 			this->button6->Location = System::Drawing::Point(3, 3);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(116, 32);
+			this->button6->Size = System::Drawing::Size(100, 32);
 			this->button6->TabIndex = 14;
 			this->button6->Text = L"< Вернуть";
 			this->button6->UseVisualStyleBackColor = false;
+			// 
+			// button3
+			// 
+			this->button3->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button3->Location = System::Drawing::Point(109, 3);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(100, 32);
+			this->button3->TabIndex = 2;
+			this->button3->Text = L"Очистить";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::ClearAll);
+			// 
+			// openFileDialog1
+			// 
+			this->openFileDialog1->FileName = L"openFileDialog1";
 			// 
 			// MyForm
 			// 
@@ -1741,19 +1813,21 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 			this->tabPage4->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->EndInit();
 			this->panel1->ResumeLayout(false);
+			this->groupBox10->ResumeLayout(false);
 			this->groupBox8->ResumeLayout(false);
 			this->groupBox8->PerformLayout();
-			this->panel3->ResumeLayout(false);
-			this->panel3->PerformLayout();
 			this->groupBox5->ResumeLayout(false);
 			this->tableLayoutPanel1->ResumeLayout(false);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
-//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //hide console window
-	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup") //hide console window
 
+		String^ Path2 = "../Data.txt";
+
+	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+		String^ Path = "../Date";
 	}
 				 //==============================================================
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -1819,10 +1893,10 @@ private: System::Windows::Forms::MaskedTextBox^ VisaDriveOut;
 		SerialNum->Text = "";
 		//SerialNum->BackColor
 	}
-private: System::Void label41_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void DefaultFill(System::Object^ sender, System::EventArgs^ e) {
-	// Main
+	private: System::Void label41_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void DefaultFill(System::Object^ sender, System::EventArgs^ e) {
+		// Main
 
 		NamePer->Text = "Станислав";
 		Surname->Text = "Кракаш";
@@ -1837,7 +1911,7 @@ private: System::Void DefaultFill(System::Object^ sender, System::EventArgs^ e) 
 		BirthDay->Text = "14";
 		BirthMonth->Text = "Сентябрь";
 		BirthYear->Text = "2005";
-	// Documents
+		// Documents
 		DocumentNum->Text = "1234567890";
 		INN->Text = "3589105";
 		KPP->Text = "9731752";
@@ -1860,30 +1934,111 @@ private: System::Void DefaultFill(System::Object^ sender, System::EventArgs^ e) 
 
 		//Room
 		RoomNum->Text = "23";
-}
-private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void comboBox2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void groupBox7_Enter(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	voice();
+		listBox1->Items->Add("Коровина Ксения Александровна");
+		listBox1->Items->Add("Алексеева Софья Арсентьевна");
+		listBox1->Items->Add("Борисова Маргарита Мироновна");
+		listBox1->Items->Add("Муравьева Александра Глебовна");
+		listBox1->Items->Add("Волков Сергей Денисович");
+		listBox1->Items->Add("Орлов Макар Романович");
+		listBox1->Items->Add("Федоров Ярослав Алексеевич");
+		listBox1->Items->Add("Карпов Артём Павлович");
+		listBox1->Items->Add("Васильев Ярослав Сергеевич");
+		listBox1->Items->Add("Петровская Екатерина Константиновна");
+		listBox1->Items->Add("Михайлов Артём Михайлович");
+		listBox1->Items->Add("Попова Кристина Матвеевна");
+		listBox1->Items->Add("Сорокин Ярослав Андреевич");
+		listBox1->Items->Add("Полякова Алина Антоновна");
+		listBox1->Items->Add("Дорохов Александр Никитич");
+		listBox1->Items->Add("Кравцова Мария Михайловна");
+		listBox1->Items->Add("Лебедев Даниил Романович");
+		listBox1->Items->Add("Лебедев Михаил Максимович");
+		listBox1->Items->Add("Кондратов Тимофей Маркович");
+		listBox1->Items->Add("Никольская Диана Михайловна");
+		listBox1->Items->Add("Дмитриева София Львовна");
+		listBox1->Items->Add("Киреев Иван Степанович");
+		listBox1->Items->Add("Сальников Демид Тимурович");
+		listBox1->Items->Add("Бирюков Александр Германович");
+		listBox1->Items->Add("Тарасова Милана Фёдоровна");
+		listBox1->Items->Add("Орехова Полина Фёдоровна");
+		listBox1->Items->Add("Лавров Никита Антонович");
+		listBox1->Items->Add("Лосева Василиса Михайловна");
+		listBox1->Items->Add("Богданов Никита Павлович");
+		listBox1->Items->Add("Корнеева Ксения Кирилловна");
+	}
+	private: System::Void richTextBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void label25_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void comboBox2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void groupBox7_Enter(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		voice();
 
-	String^ aaa = System::Convert::ToString(NamePer->Text);
+		String^ aaa = System::Convert::ToString(NamePer->Text);
 
-	vector<string> bbb;
-	bbb.push_back("SSS");
+		vector<string> bbb;
+		bbb.push_back("SSS");
 
-	bool vip = 0;
+		//////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-	if (vip_check->Checked)
-		vip = 1;
+		bool vip = 0;
 
-	save(NamePer->Text, vip);
+		if (vip_check->Checked)
+			vip = 1;
 
-}
+		save(NamePer->Text, vip);
+
+		// With Space
+		String^ name3 = NamePer->Text + " " + Surname->Text + " " + MiddleName->Text + " " + Year->Text;
+
+		// VIP
+		if (!vip_check->Checked)
+			listBox1->Items->Add(name3);
+		else
+		{
+			listBox1->Items->Add(" ");
+			listBox1->Items->Add(name3);
+			listBox1->Items->Add(" ");
+		}
+
+		//saveNew(Path2, "Stas");
+
+
+
+		// Create calendar ...
+		String^ date;
+		//date = System::Convert::ToDateTime(dateTimePicker5->MaxDate);
+
+		// Write to file + app
+		StreamWriter^ file = gcnew StreamWriter("../Data.txt", ofstream::app);
+		file->WriteLine(Path2);
+		file->Close();
+		
+		
+		//file->ReadToEnd("sss");
+
+		//StreamReader^ file = File::OpenText(FileName);
+		//listBox1->Items->Add(file->ReadToEnd());
+	}
+	private: System::Void InputPath_Click(System::Object^ sender, System::EventArgs^ e) {
+
+		Path2;
+
+		// Save
+		if (saveFileDialog1->ShowDialog() == Windows::Forms::DialogResult::OK)
+		{
+			//Path = openFileDialog1->FileName;
+			Path2 = saveFileDialog1->FileName; // Home\c++\H...
+		}
+	}
+	private: System::Void clearList_Click(System::Object^ sender, System::EventArgs^ e) {
+		// List Box
+		listBox1->Items->Clear();
+	}
+	private: System::Void DeleteListItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		listBox1->Items->Remove(listBox1->SelectedItem);
+	}
 };
 }
